@@ -1,0 +1,7 @@
+Copy pasted the column named "summary" from the abstracted data Excel spreadsheet
+into the webpage 
+https://www.wordclouds.com
+
+1) Terms are join (e.g., task & tasks, scalable & scalability), and systematic elimination of pronouns, spaces, signs, author names, verbs (substitutes, assigns,...) etc.
+
+2) Finally, remove words with 1 appeareance
