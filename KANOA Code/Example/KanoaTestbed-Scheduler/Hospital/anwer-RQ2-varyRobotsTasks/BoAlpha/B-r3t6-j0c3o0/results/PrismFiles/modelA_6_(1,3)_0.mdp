@@ -1,0 +1,38 @@
+mdp
+
+const int TT=700;//total time available 
+
+//r2 velocity:1.0
+const int travelr2at1Rock_5=22 ;// from location: l3d (robot initial loc) to location: l2b (at1Rock_5)    distance:22
+const int travelr2at2Rock_6=0 ;// from location: l2b (at1Rock_5) to location: l2b(at2Rock_6)    distance:0
+const int r2at1Rock_5Time=16;
+const int r2at2Rock_6Time=12;
+const int maxIdler2=20;
+
+formula done=(r2order=2);
+
+//formulae for ordered tasks
+
+
+//formulae for consecutive tasks
+formula r2at1Rock_5Just = r2order=1 ;
+
+
+
+
+module r2
+ r2order:[0..2];
+ r2time:[0..700];
+ r2idleTime:[0..maxIdler2];
+ [r2at1Rock_5] r2order=0 & (r2time+r2at1Rock_5Time+travelr2at1Rock_5<=TT) -> (r2order'=1) & (r2time'=r2time+r2at1Rock_5Time+travelr2at1Rock_5);
+ [r2at2Rock_6] r2order=1 & (r2time+r2at2Rock_6Time+travelr2at2Rock_6<=TT)& (r2at1Rock_5Just) & (r2time+travelr2at2Rock_6 = r2time) -> (r2order'=2) & (r2time'=r2time+r2at2Rock_6Time+travelr2at2Rock_6);
+ [r2idle] r2order!=2 & (r2time+1<=TT) & (r2idleTime+1<=maxIdler2) -> (r2time'=r2time+1) & (r2idleTime'=r2idleTime+1);
+endmodule
+
+rewards "idle"
+ //Note- there is no idle option for robot ri if maxIdleri==0 (computed beforehand)
+ [r2idle] true: 1;
+endrewards
+
+
+

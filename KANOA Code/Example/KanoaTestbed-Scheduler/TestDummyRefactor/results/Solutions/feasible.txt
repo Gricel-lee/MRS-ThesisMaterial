@@ -1,0 +1,21 @@
+alloc,,robots,,permut,,attr  (maxSucc value=prob. of failing times 100)
+1,,[r2, r3, r4, r5, r1],,[2, 12, 2, 2, 69],,{minIdle=1.0, maxSucc=0.016049113628234385, minTravel=46.0}
+1,,[r2, r3, r4, r5, r1],,[2, 16, 2, 2, 95],,{minIdle=1.0, maxSucc=0.016049113628234385, minTravel=48.0}
+1,,[r2, r3, r4, r5, r1],,[5, 4, 1, 1, 56],,{minIdle=0.0, maxSucc=0.016049113628234385, minTravel=46.0}
+1,,[r2, r3, r4, r5, r1],,[1, 13, 1, 1, 88],,{minIdle=0.0, maxSucc=0.01604911362823439, minTravel=46.0}
+2,,[r2, r4, r5, r1],,[16, 2, 2, 2280],,{minIdle=1.0, maxSucc=0.10656619642653245, minTravel=62.0}
+2,,[r2, r4, r5, r1],,[70, 2, 2, 1384],,{minIdle=1.0, maxSucc=0.10656619642653245, minTravel=51.0}
+2,,[r2, r4, r5, r1],,[39, 2, 2, 3155],,{minIdle=1.0, maxSucc=0.10656619642653245, minTravel=49.0}
+2,,[r2, r4, r5, r1],,[114, 2, 2, 4237],,{minIdle=1.0, maxSucc=0.10656619642653245, minTravel=41.0}
+2,,[r2, r4, r5, r1],,[2, 2, 2, 2922],,{minIdle=1.0, maxSucc=0.10656619642653245, minTravel=53.0}
+3,,[r2, r4, r5, r1],,[15515, 2, 2, 5],,{minIdle=1.0, maxSucc=0.08546209761486695, minTravel=52.0}
+4,,[r2, r3, r4, r5, r1],,[2420, 1, 2, 2, 10],,{minIdle=1.0, maxSucc=0.011493622556660976, minTravel=47.0}
+4,,[r2, r3, r4, r5, r1],,[4651, 1, 1, 1, 10],,{minIdle=0.0, maxSucc=0.011493622556660974, minTravel=45.0}
+4,,[r2, r3, r4, r5, r1],,[2586, 1, 2, 2, 15],,{minIdle=1.0, maxSucc=0.011493622556660974, minTravel=53.0}
+4,,[r2, r3, r4, r5, r1],,[1007, 1, 2, 2, 4],,{minIdle=1.0, maxSucc=0.011493622556660976, minTravel=54.0}
+4,,[r2, r3, r4, r5, r1],,[3481, 1, 1, 1, 8],,{minIdle=0.0, maxSucc=0.011493622556660974, minTravel=41.0}
+4,,[r2, r3, r4, r5, r1],,[2833, 1, 1, 1, 16],,{minIdle=0.0, maxSucc=0.011493622556660976, minTravel=52.0}
+5,,[r2, r3, r4, r5, r1],,[17, 6, 1, 1, 60],,{minIdle=0.0, maxSucc=0.012636415489803359, minTravel=51.0}
+5,,[r2, r3, r4, r5, r1],,[4, 6, 1, 1, 119],,{minIdle=0.0, maxSucc=0.012636415489803359, minTravel=47.0}
+5,,[r2, r3, r4, r5, r1],,[16, 3, 2, 2, 15],,{minIdle=1.0, maxSucc=0.012636415489803359, minTravel=42.0}
+5,,[r2, r3, r4, r5, r1],,[7, 2, 2, 2, 43],,{minIdle=1.0, maxSucc=0.012636415489803359, minTravel=42.0}

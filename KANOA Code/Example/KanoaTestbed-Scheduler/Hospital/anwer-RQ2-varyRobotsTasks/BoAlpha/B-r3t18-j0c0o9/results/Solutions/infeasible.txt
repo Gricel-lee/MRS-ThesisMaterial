@@ -1,0 +1,544 @@
+alloc,,robots,,perm,,reason,,time
+1,,[r2, r3, r1],,[158951, 1, 14],,noPlanSynthesised,,22043
+1,,[r2, r3, r1],,[316842, 1, 14],,noPlanSynthesised,,30609
+1,,[r2, r3, r1],,[50326, 1, 12],,noPlanSynthesised,,39225
+1,,[r2, r3, r1],,[189088, 1, 21],,noPlanSynthesised,,49401
+1,,[r2, r3, r1],,[70326, 1, 5],,noPlanSynthesised,,60402
+1,,[r2, r3, r1],,[130547, 1, 11],,noPlanSynthesised,,70240
+1,,[r2, r3, r1],,[132021, 1, 3],,noPlanSynthesised,,80324
+1,,[r2, r3, r1],,[361774, 1, 24],,noPlanSynthesised,,90467
+1,,[r2, r3, r1],,[10353, 1, 2],,noPlanSynthesised,,104176
+1,,[r2, r3, r1],,[277429, 1, 19],,noPlanSynthesised,,115282
+1,,[r2, r3, r1],,[72338, 1, 23],,noPlanSynthesised,,126118
+1,,[r2, r3, r1],,[258153, 1, 15],,noPlanSynthesised,,137063
+1,,[r2, r3, r1],,[271237, 1, 5],,noPlanSynthesised,,148351
+1,,[r2, r3, r1],,[307047, 1, 4],,noPlanSynthesised,,160000
+1,,[r2, r3, r1],,[119082, 1, 5],,noPlanSynthesised,,171032
+1,,[r2, r3, r1],,[230713, 1, 13],,noPlanSynthesised,,183071
+1,,[r2, r3, r1],,[45310, 1, 24],,noPlanSynthesised,,194584
+1,,[r2, r3, r1],,[206830, 1, 23],,noPlanSynthesised,,205639
+1,,[r2, r3, r1],,[12175, 1, 10],,noPlanSynthesised,,216943
+1,,[r2, r3, r1],,[351378, 1, 3],,noPlanSynthesised,,228236
+1,,[r2, r3, r1],,[337473, 1, 8],,noPlanSynthesised,,239985
+1,,[r2, r3, r1],,[237255, 1, 1],,noPlanSynthesised,,250894
+1,,[r2, r3, r1],,[22645, 1, 21],,noPlanSynthesised,,261195
+1,,[r2, r3, r1],,[160821, 1, 1],,noPlanSynthesised,,270402
+1,,[r2, r3, r1],,[89695, 1, 19],,noPlanSynthesised,,280744
+1,,[r2, r3, r1],,[168279, 1, 8],,noPlanSynthesised,,290170
+1,,[r2, r3, r1],,[80977, 1, 14],,noPlanSynthesised,,301187
+1,,[r2, r3, r1],,[142992, 1, 17],,noPlanSynthesised,,310780
+1,,[r2, r3, r1],,[325261, 1, 16],,noPlanSynthesised,,320113
+1,,[r2, r3, r1],,[58841, 1, 23],,noPlanSynthesised,,329968
+1,,[r2, r3, r1],,[209444, 1, 5],,noPlanSynthesised,,339108
+1,,[r2, r3, r1],,[39093, 1, 16],,noPlanSynthesised,,350028
+1,,[r2, r3, r1],,[25016, 1, 20],,noPlanSynthesised,,359841
+1,,[r2, r3, r1],,[224619, 1, 14],,noPlanSynthesised,,370232
+1,,[r2, r3, r1],,[187999, 1, 13],,noPlanSynthesised,,380612
+1,,[r2, r3, r1],,[95106, 1, 10],,noPlanSynthesised,,390816
+1,,[r2, r3, r1],,[8894, 1, 1],,noPlanSynthesised,,402052
+1,,[r2, r3, r1],,[98749, 1, 18],,noPlanSynthesised,,412560
+1,,[r2, r3, r1],,[85479, 1, 23],,noPlanSynthesised,,423231
+1,,[r2, r3, r1],,[329045, 1, 1],,noPlanSynthesised,,432557
+1,,[r2, r3, r1],,[342207, 1, 2],,noPlanSynthesised,,443092
+1,,[r2, r3, r1],,[293344, 1, 21],,noPlanSynthesised,,454462
+1,,[r2, r3, r1],,[116032, 1, 18],,noPlanSynthesised,,464183
+1,,[r2, r3, r1],,[113395, 1, 18],,noPlanSynthesised,,474025
+1,,[r2, r3, r1],,[150938, 1, 2],,noPlanSynthesised,,485428
+1,,[r2, r3, r1],,[166831, 1, 19],,noPlanSynthesised,,495892
+1,,[r2, r3, r1],,[77006, 1, 24],,noPlanSynthesised,,506464
+1,,[r2, r3, r1],,[14845, 1, 12],,noPlanSynthesised,,515775
+1,,[r2, r3, r1],,[172668, 1, 19],,noPlanSynthesised,,526869
+1,,[r2, r3, r1],,[222053, 1, 10],,noPlanSynthesised,,537479
+2,,[r2, r1],,[22, 116119],,noPlanSynthesised,,542635
+2,,[r2, r1],,[44, 231446],,noPlanSynthesised,,547093
+2,,[r2, r1],,[1, 193750],,noPlanSynthesised,,551964
+2,,[r2, r1],,[114, 212392],,noPlanSynthesised,,556536
+2,,[r2, r1],,[114, 318915],,noPlanSynthesised,,561251
+2,,[r2, r1],,[115, 144245],,noPlanSynthesised,,564445
+2,,[r2, r1],,[84, 233770],,noPlanSynthesised,,568302
+2,,[r2, r1],,[41, 249212],,noPlanSynthesised,,575433
+2,,[r2, r1],,[23, 239006],,noPlanSynthesised,,579374
+2,,[r2, r1],,[96, 229092],,noPlanSynthesised,,583037
+2,,[r2, r1],,[30, 178556],,noPlanSynthesised,,586948
+2,,[r2, r1],,[71, 152327],,noPlanSynthesised,,590753
+2,,[r2, r1],,[108, 110941],,noPlanSynthesised,,599517
+2,,[r2, r1],,[97, 155096],,noPlanSynthesised,,603624
+2,,[r2, r1],,[45, 304551],,noPlanSynthesised,,607973
+2,,[r2, r1],,[10, 287674],,noPlanSynthesised,,612119
+2,,[r2, r1],,[80, 236684],,noPlanSynthesised,,616114
+2,,[r2, r1],,[59, 164080],,noPlanSynthesised,,620810
+2,,[r2, r1],,[52, 276052],,noPlanSynthesised,,625384
+2,,[r2, r1],,[14, 209271],,noPlanSynthesised,,630120
+2,,[r2, r1],,[30, 30911],,noPlanSynthesised,,633497
+2,,[r2, r1],,[106, 334955],,noPlanSynthesised,,636864
+2,,[r2, r1],,[104, 4995],,noPlanSynthesised,,640760
+2,,[r2, r1],,[3, 111639],,noPlanSynthesised,,644214
+2,,[r2, r1],,[83, 91105],,noPlanSynthesised,,648090
+2,,[r2, r1],,[59, 329499],,noPlanSynthesised,,652383
+2,,[r2, r1],,[46, 202083],,noPlanSynthesised,,656646
+2,,[r2, r1],,[50, 31161],,noPlanSynthesised,,661041
+2,,[r2, r1],,[63, 279348],,noPlanSynthesised,,665442
+2,,[r2, r1],,[57, 47676],,noPlanSynthesised,,669413
+2,,[r2, r1],,[5, 207644],,noPlanSynthesised,,673089
+2,,[r2, r1],,[77, 324357],,noPlanSynthesised,,677062
+2,,[r2, r1],,[24, 298774],,noPlanSynthesised,,681261
+2,,[r2, r1],,[102, 203827],,noPlanSynthesised,,685650
+2,,[r2, r1],,[81, 347535],,noPlanSynthesised,,690326
+2,,[r2, r1],,[103, 122094],,noPlanSynthesised,,695664
+2,,[r2, r1],,[91, 115133],,noPlanSynthesised,,701152
+2,,[r2, r1],,[8, 349008],,noPlanSynthesised,,705467
+2,,[r2, r1],,[91, 268826],,noPlanSynthesised,,710444
+2,,[r2, r1],,[110, 330865],,noPlanSynthesised,,715341
+2,,[r2, r1],,[107, 313596],,noPlanSynthesised,,720559
+2,,[r2, r1],,[5, 114702],,noPlanSynthesised,,724781
+2,,[r2, r1],,[81, 159571],,noPlanSynthesised,,729408
+2,,[r2, r1],,[100, 251734],,noPlanSynthesised,,734083
+2,,[r2, r1],,[78, 133328],,noPlanSynthesised,,743775
+2,,[r2, r1],,[108, 178250],,noPlanSynthesised,,748342
+2,,[r2, r1],,[25, 226795],,noPlanSynthesised,,752856
+3,,[r2, r3, r1],,[168976, 1, 1],,noPlanSynthesised,,758141
+3,,[r2, r3, r1],,[300452, 1, 3],,noPlanSynthesised,,761992
+3,,[r2, r3, r1],,[355170, 1, 5],,noPlanSynthesised,,765800
+3,,[r2, r3, r1],,[21688, 1, 1],,noPlanSynthesised,,770189
+3,,[r2, r3, r1],,[186894, 1, 1],,noPlanSynthesised,,775110
+3,,[r2, r3, r1],,[123297, 2, 4],,noPlanSynthesised,,779899
+3,,[r2, r3, r1],,[315302, 1, 6],,noPlanSynthesised,,784602
+3,,[r2, r3, r1],,[341675, 2, 3],,noPlanSynthesised,,788852
+3,,[r2, r3, r1],,[331833, 1, 6],,noPlanSynthesised,,793618
+3,,[r2, r3, r1],,[125642, 1, 5],,noPlanSynthesised,,797993
+3,,[r2, r3, r1],,[304075, 2, 4],,noPlanSynthesised,,802342
+3,,[r2, r3, r1],,[64629, 2, 5],,noPlanSynthesised,,807633
+3,,[r2, r3, r1],,[115827, 1, 6],,noPlanSynthesised,,812539
+3,,[r2, r3, r1],,[209162, 2, 4],,noPlanSynthesised,,816250
+3,,[r2, r3, r1],,[22676, 1, 5],,noPlanSynthesised,,820159
+3,,[r2, r3, r1],,[256583, 2, 1],,noPlanSynthesised,,825330
+3,,[r2, r3, r1],,[115664, 1, 1],,noPlanSynthesised,,829288
+3,,[r2, r3, r1],,[103361, 1, 4],,noPlanSynthesised,,833683
+3,,[r2, r3, r1],,[80488, 2, 6],,noPlanSynthesised,,838025
+3,,[r2, r3, r1],,[215867, 1, 6],,noPlanSynthesised,,841993
+3,,[r2, r3, r1],,[335355, 2, 6],,noPlanSynthesised,,846661
+3,,[r2, r3, r1],,[24412, 2, 3],,noPlanSynthesised,,850640
+3,,[r2, r3, r1],,[169602, 2, 5],,noPlanSynthesised,,855493
+3,,[r2, r3, r1],,[336904, 1, 1],,noPlanSynthesised,,859879
+3,,[r2, r3, r1],,[173119, 2, 5],,noPlanSynthesised,,863603
+3,,[r2, r3, r1],,[316051, 1, 6],,noPlanSynthesised,,868442
+3,,[r2, r3, r1],,[284620, 2, 1],,noPlanSynthesised,,872669
+3,,[r2, r3, r1],,[335818, 2, 3],,noPlanSynthesised,,876625
+3,,[r2, r3, r1],,[108714, 1, 1],,noPlanSynthesised,,880968
+3,,[r2, r3, r1],,[43212, 2, 1],,noPlanSynthesised,,885664
+3,,[r2, r3, r1],,[115666, 2, 2],,noPlanSynthesised,,889949
+3,,[r2, r3, r1],,[26869, 2, 5],,noPlanSynthesised,,893404
+3,,[r2, r3, r1],,[110293, 2, 2],,noPlanSynthesised,,898476
+3,,[r2, r3, r1],,[341011, 1, 4],,noPlanSynthesised,,902428
+3,,[r2, r3, r1],,[20058, 2, 2],,noPlanSynthesised,,906991
+3,,[r2, r3, r1],,[88263, 2, 6],,noPlanSynthesised,,916013
+3,,[r2, r3, r1],,[317243, 1, 3],,noPlanSynthesised,,919788
+3,,[r2, r3, r1],,[266904, 2, 6],,noPlanSynthesised,,924000
+3,,[r2, r3, r1],,[149487, 2, 2],,noPlanSynthesised,,928754
+3,,[r2, r3, r1],,[340352, 2, 6],,noPlanSynthesised,,932975
+3,,[r2, r3, r1],,[114333, 2, 5],,noPlanSynthesised,,937251
+3,,[r2, r3, r1],,[158727, 2, 4],,noPlanSynthesised,,941413
+3,,[r2, r3, r1],,[265582, 2, 2],,noPlanSynthesised,,945994
+3,,[r2, r3, r1],,[184729, 2, 4],,noPlanSynthesised,,949821
+3,,[r2, r3, r1],,[345843, 2, 1],,noPlanSynthesised,,953772
+3,,[r2, r3, r1],,[212572, 2, 6],,noPlanSynthesised,,958112
+3,,[r2, r3, r1],,[147441, 1, 6],,noPlanSynthesised,,962388
+3,,[r2, r3, r1],,[341137, 2, 5],,noPlanSynthesised,,966478
+4,,[r2, r3, r1],,[5, 1, 51007],,noPlanSynthesised,,975262
+4,,[r2, r3, r1],,[4, 2, 260915],,noPlanSynthesised,,978508
+4,,[r2, r3, r1],,[5, 1, 205398],,noPlanSynthesised,,981651
+4,,[r2, r3, r1],,[4, 2, 233363],,noPlanSynthesised,,984828
+4,,[r2, r3, r1],,[4, 1, 4236],,noPlanSynthesised,,988008
+4,,[r2, r3, r1],,[6, 1, 241706],,noPlanSynthesised,,991041
+4,,[r2, r3, r1],,[1, 2, 286847],,noPlanSynthesised,,994217
+4,,[r2, r3, r1],,[3, 1, 154568],,noPlanSynthesised,,997902
+4,,[r2, r3, r1],,[3, 1, 294319],,noPlanSynthesised,,1001228
+4,,[r2, r3, r1],,[5, 2, 319625],,noPlanSynthesised,,1004288
+4,,[r2, r3, r1],,[3, 2, 219332],,noPlanSynthesised,,1007369
+4,,[r2, r3, r1],,[3, 1, 180743],,noPlanSynthesised,,1010565
+4,,[r2, r3, r1],,[5, 1, 66978],,noPlanSynthesised,,1013655
+4,,[r2, r3, r1],,[3, 2, 150264],,noPlanSynthesised,,1016766
+4,,[r2, r3, r1],,[5, 1, 252494],,noPlanSynthesised,,1019926
+4,,[r2, r3, r1],,[4, 1, 75746],,noPlanSynthesised,,1022990
+4,,[r2, r3, r1],,[6, 2, 201401],,noPlanSynthesised,,1026549
+4,,[r2, r3, r1],,[5, 1, 300078],,noPlanSynthesised,,1029697
+4,,[r2, r3, r1],,[1, 2, 247601],,noPlanSynthesised,,1032847
+4,,[r2, r3, r1],,[2, 2, 233489],,noPlanSynthesised,,1035934
+4,,[r2, r3, r1],,[5, 1, 152144],,noPlanSynthesised,,1039086
+4,,[r2, r3, r1],,[2, 1, 53706],,noPlanSynthesised,,1042237
+4,,[r2, r3, r1],,[6, 2, 141543],,noPlanSynthesised,,1045499
+4,,[r2, r3, r1],,[1, 2, 214501],,noPlanSynthesised,,1048648
+4,,[r2, r3, r1],,[4, 1, 193802],,noPlanSynthesised,,1051847
+4,,[r2, r3, r1],,[4, 2, 3542],,noPlanSynthesised,,1055339
+4,,[r2, r3, r1],,[1, 2, 47329],,noPlanSynthesised,,1058482
+4,,[r2, r3, r1],,[2, 1, 11854],,noPlanSynthesised,,1061597
+4,,[r2, r3, r1],,[3, 2, 168124],,noPlanSynthesised,,1064731
+4,,[r2, r3, r1],,[1, 1, 194656],,noPlanSynthesised,,1067866
+4,,[r2, r3, r1],,[6, 1, 146625],,noPlanSynthesised,,1071005
+4,,[r2, r3, r1],,[2, 2, 36242],,noPlanSynthesised,,1074034
+4,,[r2, r3, r1],,[6, 2, 122609],,noPlanSynthesised,,1077035
+4,,[r2, r3, r1],,[3, 1, 186173],,noPlanSynthesised,,1080144
+4,,[r2, r3, r1],,[3, 2, 85034],,noPlanSynthesised,,1083149
+4,,[r2, r3, r1],,[2, 2, 118163],,noPlanSynthesised,,1086172
+4,,[r2, r3, r1],,[4, 2, 238351],,noPlanSynthesised,,1089429
+4,,[r2, r3, r1],,[1, 1, 196451],,noPlanSynthesised,,1092571
+4,,[r2, r3, r1],,[3, 2, 351936],,noPlanSynthesised,,1095898
+4,,[r2, r3, r1],,[2, 1, 353347],,noPlanSynthesised,,1099095
+4,,[r2, r3, r1],,[5, 2, 131615],,noPlanSynthesised,,1102260
+4,,[r2, r3, r1],,[3, 1, 272106],,noPlanSynthesised,,1105330
+4,,[r2, r3, r1],,[6, 1, 72884],,noPlanSynthesised,,1108397
+4,,[r2, r3, r1],,[3, 2, 358831],,noPlanSynthesised,,1111600
+4,,[r2, r3, r1],,[1, 2, 327858],,noPlanSynthesised,,1114656
+4,,[r2, r3, r1],,[1, 2, 289960],,noPlanSynthesised,,1117729
+4,,[r2, r3, r1],,[3, 2, 344191],,noPlanSynthesised,,1121000
+4,,[r2, r3, r1],,[6, 1, 17837],,noPlanSynthesised,,1124046
+4,,[r2, r3, r1],,[3, 2, 148071],,noPlanSynthesised,,1127282
+4,,[r2, r3, r1],,[6, 2, 241519],,noPlanSynthesised,,1130412
+5,,[r2, r3, r1],,[2, 1, 1127736],,noPlanSynthesised,,1132954
+5,,[r2, r3, r1],,[2, 2, 896299],,noPlanSynthesised,,1135643
+5,,[r2, r3, r1],,[2, 1, 3534098],,noPlanSynthesised,,1137651
+5,,[r2, r3, r1],,[2, 1, 23533],,noPlanSynthesised,,1139454
+5,,[r2, r3, r1],,[1, 2, 2894983],,noPlanSynthesised,,1141017
+5,,[r2, r3, r1],,[1, 1, 1151134],,noPlanSynthesised,,1142612
+5,,[r2, r3, r1],,[2, 1, 48640],,noPlanSynthesised,,1144964
+5,,[r2, r3, r1],,[2, 1, 445350],,noPlanSynthesised,,1146938
+5,,[r2, r3, r1],,[2, 1, 1109953],,noPlanSynthesised,,1149238
+5,,[r2, r3, r1],,[2, 2, 2549516],,noPlanSynthesised,,1151625
+5,,[r2, r3, r1],,[1, 1, 976862],,noPlanSynthesised,,1154009
+5,,[r2, r3, r1],,[1, 1, 1285273],,noPlanSynthesised,,1155891
+5,,[r2, r3, r1],,[1, 2, 3566870],,noPlanSynthesised,,1158256
+5,,[r2, r3, r1],,[1, 1, 2135870],,noPlanSynthesised,,1160619
+5,,[r2, r3, r1],,[1, 1, 2202175],,noPlanSynthesised,,1163146
+5,,[r2, r3, r1],,[1, 2, 1118453],,noPlanSynthesised,,1165449
+5,,[r2, r3, r1],,[1, 1, 293870],,noPlanSynthesised,,1167751
+5,,[r2, r3, r1],,[2, 2, 872462],,noPlanSynthesised,,1169485
+5,,[r2, r3, r1],,[1, 1, 2430788],,noPlanSynthesised,,1171828
+5,,[r2, r3, r1],,[1, 1, 502142],,noPlanSynthesised,,1173855
+5,,[r2, r3, r1],,[2, 1, 1524698],,noPlanSynthesised,,1176473
+5,,[r2, r3, r1],,[1, 2, 2043728],,noPlanSynthesised,,1178404
+5,,[r2, r3, r1],,[1, 1, 2370527],,noPlanSynthesised,,1180091
+5,,[r2, r3, r1],,[2, 2, 1290249],,noPlanSynthesised,,1181650
+5,,[r2, r3, r1],,[1, 2, 215726],,noPlanSynthesised,,1183960
+5,,[r2, r3, r1],,[1, 2, 263016],,noPlanSynthesised,,1186091
+5,,[r2, r3, r1],,[1, 2, 2143289],,noPlanSynthesised,,1188434
+5,,[r2, r3, r1],,[1, 2, 1986457],,noPlanSynthesised,,1190372
+5,,[r2, r3, r1],,[2, 2, 3145140],,noPlanSynthesised,,1192657
+5,,[r2, r3, r1],,[2, 2, 2510193],,noPlanSynthesised,,1194834
+5,,[r2, r3, r1],,[2, 2, 3505722],,noPlanSynthesised,,1196548
+5,,[r2, r3, r1],,[1, 1, 356637],,noPlanSynthesised,,1198367
+5,,[r2, r3, r1],,[2, 2, 470275],,noPlanSynthesised,,1200644
+5,,[r2, r3, r1],,[2, 1, 803342],,noPlanSynthesised,,1203076
+5,,[r2, r3, r1],,[2, 2, 2126638],,noPlanSynthesised,,1205413
+5,,[r2, r3, r1],,[2, 1, 3393231],,noPlanSynthesised,,1207259
+5,,[r2, r3, r1],,[1, 1, 3465463],,noPlanSynthesised,,1209680
+5,,[r2, r3, r1],,[1, 1, 64471],,noPlanSynthesised,,1211120
+5,,[r2, r3, r1],,[1, 2, 2029965],,noPlanSynthesised,,1213445
+5,,[r2, r3, r1],,[1, 2, 2653490],,noPlanSynthesised,,1215355
+5,,[r2, r3, r1],,[1, 1, 3537089],,noPlanSynthesised,,1217646
+5,,[r2, r3, r1],,[1, 2, 3289193],,noPlanSynthesised,,1219529
+5,,[r2, r3, r1],,[2, 1, 3460060],,noPlanSynthesised,,1222201
+5,,[r2, r3, r1],,[2, 1, 577712],,noPlanSynthesised,,1224598
+5,,[r2, r3, r1],,[2, 1, 2073638],,noPlanSynthesised,,1226505
+5,,[r2, r3, r1],,[1, 1, 1844498],,noPlanSynthesised,,1228305
+5,,[r2, r3, r1],,[2, 1, 2117816],,noPlanSynthesised,,1230551
+5,,[r2, r3, r1],,[2, 2, 1584343],,noPlanSynthesised,,1232483
+5,,[r2, r3, r1],,[1, 2, 346445],,noPlanSynthesised,,1234789
+5,,[r2, r3, r1],,[2, 2, 2505247],,noPlanSynthesised,,1236702
+6,,[r3, r1],,[1, 401009533],,noPlanSynthesised,,1237582
+6,,[r3, r1],,[2, 397803786],,noPlanSynthesised,,1237756
+6,,[r3, r1],,[2, 283101751],,noPlanSynthesised,,1237773
+6,,[r3, r1],,[2, 240216557],,noPlanSynthesised,,1237786
+6,,[r3, r1],,[1, 204837435],,noPlanSynthesised,,1237933
+6,,[r3, r1],,[1, 421302221],,noPlanSynthesised,,1238023
+6,,[r3, r1],,[2, 347613475],,noPlanSynthesised,,1238041
+6,,[r3, r1],,[2, 4418364],,noPlanSynthesised,,1238054
+6,,[r3, r1],,[1, 308312076],,noPlanSynthesised,,1238112
+6,,[r3, r1],,[2, 176418911],,noPlanSynthesised,,1238124
+6,,[r3, r1],,[1, 469425795],,noPlanSynthesised,,1238179
+6,,[r3, r1],,[1, 300886263],,noPlanSynthesised,,1238231
+6,,[r3, r1],,[2, 447566849],,noPlanSynthesised,,1238250
+6,,[r3, r1],,[1, 391607501],,noPlanSynthesised,,1238308
+6,,[r3, r1],,[1, 398144648],,noPlanSynthesised,,1238369
+6,,[r3, r1],,[1, 179234434],,noPlanSynthesised,,1238434
+6,,[r3, r1],,[1, 415376267],,noPlanSynthesised,,1238496
+6,,[r3, r1],,[2, 58450876],,noPlanSynthesised,,1238510
+6,,[r3, r1],,[1, 434539571],,noPlanSynthesised,,1238575
+6,,[r3, r1],,[1, 384036474],,noPlanSynthesised,,1238632
+6,,[r3, r1],,[1, 394873784],,noPlanSynthesised,,1238694
+6,,[r3, r1],,[1, 275503318],,noPlanSynthesised,,1238752
+6,,[r3, r1],,[2, 370872816],,noPlanSynthesised,,1238766
+6,,[r3, r1],,[1, 26679981],,noPlanSynthesised,,1238820
+6,,[r3, r1],,[2, 151792361],,noPlanSynthesised,,1238833
+6,,[r3, r1],,[1, 294020177],,noPlanSynthesised,,1238919
+6,,[r3, r1],,[1, 7439726],,noPlanSynthesised,,1238977
+6,,[r3, r1],,[2, 352268861],,noPlanSynthesised,,1238990
+6,,[r3, r1],,[1, 4271975],,noPlanSynthesised,,1239041
+6,,[r3, r1],,[2, 71417739],,noPlanSynthesised,,1239053
+6,,[r3, r1],,[1, 32039438],,noPlanSynthesised,,1239107
+6,,[r3, r1],,[1, 55851745],,noPlanSynthesised,,1239171
+6,,[r3, r1],,[1, 95997838],,noPlanSynthesised,,1239232
+6,,[r3, r1],,[2, 125146115],,noPlanSynthesised,,1239243
+6,,[r3, r1],,[1, 333765804],,noPlanSynthesised,,1239298
+6,,[r3, r1],,[1, 320313236],,noPlanSynthesised,,1239365
+6,,[r3, r1],,[1, 167750492],,noPlanSynthesised,,1239425
+6,,[r3, r1],,[1, 205521149],,noPlanSynthesised,,1239479
+6,,[r3, r1],,[2, 436143216],,noPlanSynthesised,,1239493
+6,,[r3, r1],,[2, 218939494],,noPlanSynthesised,,1239506
+6,,[r3, r1],,[2, 15028843],,noPlanSynthesised,,1239519
+6,,[r3, r1],,[1, 375103202],,noPlanSynthesised,,1239582
+6,,[r3, r1],,[2, 384032628],,noPlanSynthesised,,1239604
+6,,[r3, r1],,[1, 61075111],,noPlanSynthesised,,1239678
+6,,[r3, r1],,[2, 337947750],,noPlanSynthesised,,1239692
+6,,[r3, r1],,[2, 155140474],,noPlanSynthesised,,1239710
+6,,[r3, r1],,[1, 471151364],,noPlanSynthesised,,1239776
+6,,[r3, r1],,[2, 358351657],,noPlanSynthesised,,1239791
+6,,[r3, r1],,[1, 302028106],,noPlanSynthesised,,1239863
+6,,[r3, r1],,[1, 407876146],,noPlanSynthesised,,1239929
+7,,[r2, r3, r1],,[1883539, 2, 1],,noPlanSynthesised,,1242396
+7,,[r2, r3, r1],,[2175106, 1, 1],,noPlanSynthesised,,1244136
+7,,[r2, r3, r1],,[2310639, 1, 1],,noPlanSynthesised,,1245202
+7,,[r2, r3, r1],,[1418355, 1, 2],,noPlanSynthesised,,1245885
+7,,[r2, r3, r1],,[26115, 2, 1],,noPlanSynthesised,,1246651
+7,,[r2, r3, r1],,[2649, 2, 1],,noPlanSynthesised,,1247440
+7,,[r2, r3, r1],,[3027501, 2, 2],,noPlanSynthesised,,1247933
+7,,[r2, r3, r1],,[1340763, 1, 1],,noPlanSynthesised,,1248204
+7,,[r2, r3, r1],,[1784791, 2, 2],,noPlanSynthesised,,1248385
+7,,[r2, r3, r1],,[923385, 2, 2],,noPlanSynthesised,,1248674
+7,,[r2, r3, r1],,[3572525, 2, 1],,noPlanSynthesised,,1248831
+7,,[r2, r3, r1],,[3456156, 2, 2],,noPlanSynthesised,,1249018
+7,,[r2, r3, r1],,[418975, 2, 1],,noPlanSynthesised,,1249171
+7,,[r2, r3, r1],,[1847074, 2, 1],,noPlanSynthesised,,1249275
+7,,[r2, r3, r1],,[2674115, 1, 2],,noPlanSynthesised,,1249406
+7,,[r2, r3, r1],,[3157106, 2, 2],,noPlanSynthesised,,1249508
+7,,[r2, r3, r1],,[608188, 1, 1],,noPlanSynthesised,,1249626
+7,,[r2, r3, r1],,[2483739, 2, 2],,noPlanSynthesised,,1249714
+7,,[r2, r3, r1],,[2850028, 2, 1],,noPlanSynthesised,,1249806
+7,,[r2, r3, r1],,[2283347, 2, 2],,noPlanSynthesised,,1249892
+7,,[r2, r3, r1],,[1175412, 2, 2],,noPlanSynthesised,,1249969
+7,,[r2, r3, r1],,[1591197, 1, 1],,noPlanSynthesised,,1250108
+7,,[r2, r3, r1],,[1165676, 2, 2],,noPlanSynthesised,,1250192
+7,,[r2, r3, r1],,[2196388, 2, 1],,noPlanSynthesised,,1250270
+7,,[r2, r3, r1],,[2370721, 2, 2],,noPlanSynthesised,,1250341
+7,,[r2, r3, r1],,[3115735, 2, 2],,noPlanSynthesised,,1250417
+7,,[r2, r3, r1],,[2130698, 1, 2],,noPlanSynthesised,,1250495
+7,,[r2, r3, r1],,[1973902, 1, 1],,noPlanSynthesised,,1250566
+7,,[r2, r3, r1],,[3506680, 2, 1],,noPlanSynthesised,,1250636
+7,,[r2, r3, r1],,[2250386, 1, 1],,noPlanSynthesised,,1250714
+7,,[r2, r3, r1],,[1567346, 2, 2],,noPlanSynthesised,,1250845
+7,,[r2, r3, r1],,[3125239, 2, 2],,noPlanSynthesised,,1250932
+7,,[r2, r3, r1],,[1417473, 2, 1],,noPlanSynthesised,,1251019
+7,,[r2, r3, r1],,[1013884, 1, 2],,noPlanSynthesised,,1251100
+7,,[r2, r3, r1],,[604846, 1, 2],,noPlanSynthesised,,1251185
+7,,[r2, r3, r1],,[764821, 2, 2],,noPlanSynthesised,,1251257
+7,,[r2, r3, r1],,[1035419, 1, 2],,noPlanSynthesised,,1251336
+7,,[r2, r3, r1],,[2679690, 1, 1],,noPlanSynthesised,,1251408
+7,,[r2, r3, r1],,[2263368, 1, 1],,noPlanSynthesised,,1251492
+7,,[r2, r3, r1],,[3102244, 1, 1],,noPlanSynthesised,,1251566
+7,,[r2, r3, r1],,[389681, 2, 2],,noPlanSynthesised,,1251644
+7,,[r2, r3, r1],,[1844607, 2, 2],,noPlanSynthesised,,1251773
+7,,[r2, r3, r1],,[732424, 1, 2],,noPlanSynthesised,,1251847
+7,,[r2, r3, r1],,[1101248, 1, 2],,noPlanSynthesised,,1251941
+7,,[r2, r3, r1],,[2933893, 2, 2],,noPlanSynthesised,,1252041
+7,,[r2, r3, r1],,[3122066, 2, 1],,noPlanSynthesised,,1252133
+7,,[r2, r3, r1],,[1161805, 2, 2],,noPlanSynthesised,,1252218
+7,,[r2, r3, r1],,[2148438, 2, 1],,noPlanSynthesised,,1252298
+7,,[r2, r3, r1],,[2682143, 2, 1],,noPlanSynthesised,,1252368
+7,,[r2, r3, r1],,[3402037, 2, 1],,noPlanSynthesised,,1252446
+8,,[r2, r3, r1],,[10387, 1, 20],,noPlanSynthesised,,1259797
+8,,[r2, r3, r1],,[19645, 1, 93],,noPlanSynthesised,,1266361
+8,,[r2, r3, r1],,[37466, 1, 42],,noPlanSynthesised,,1273665
+8,,[r2, r3, r1],,[32248, 1, 3],,noPlanSynthesised,,1282350
+8,,[r2, r3, r1],,[13961, 1, 64],,noPlanSynthesised,,1289376
+8,,[r2, r3, r1],,[16490, 1, 114],,noPlanSynthesised,,1297611
+8,,[r2, r3, r1],,[12563, 1, 19],,noPlanSynthesised,,1306679
+8,,[r2, r3, r1],,[30357, 1, 65],,noPlanSynthesised,,1314356
+8,,[r2, r3, r1],,[28244, 1, 37],,noPlanSynthesised,,1323121
+8,,[r2, r3, r1],,[16456, 1, 58],,noPlanSynthesised,,1331126
+8,,[r2, r3, r1],,[16888, 1, 25],,noPlanSynthesised,,1338198
+8,,[r2, r3, r1],,[36109, 1, 45],,noPlanSynthesised,,1345472
+8,,[r2, r3, r1],,[7404, 1, 6],,noPlanSynthesised,,1353181
+8,,[r2, r3, r1],,[4141, 1, 108],,noPlanSynthesised,,1361180
+8,,[r2, r3, r1],,[28273, 1, 99],,noPlanSynthesised,,1370280
+8,,[r2, r3, r1],,[30327, 1, 54],,noPlanSynthesised,,1379803
+8,,[r2, r3, r1],,[14234, 1, 117],,noPlanSynthesised,,1387430
+8,,[r2, r3, r1],,[18033, 1, 42],,noPlanSynthesised,,1395921
+8,,[r2, r3, r1],,[7093, 1, 20],,noPlanSynthesised,,1404478
+8,,[r2, r3, r1],,[12258, 1, 83],,noPlanSynthesised,,1413933
+8,,[r2, r3, r1],,[37141, 1, 119],,noPlanSynthesised,,1422628
+8,,[r2, r3, r1],,[38690, 1, 17],,noPlanSynthesised,,1431116
+8,,[r2, r3, r1],,[34932, 1, 68],,noPlanSynthesised,,1440811
+8,,[r2, r3, r1],,[27224, 1, 109],,noPlanSynthesised,,1448033
+8,,[r2, r3, r1],,[10303, 1, 53],,noPlanSynthesised,,1456936
+8,,[r2, r3, r1],,[24794, 1, 116],,noPlanSynthesised,,1464809
+8,,[r2, r3, r1],,[4132, 1, 89],,noPlanSynthesised,,1473777
+8,,[r2, r3, r1],,[14347, 1, 38],,noPlanSynthesised,,1481447
+8,,[r2, r3, r1],,[30855, 1, 68],,noPlanSynthesised,,1490954
+8,,[r2, r3, r1],,[23994, 1, 59],,noPlanSynthesised,,1499101
+8,,[r2, r3, r1],,[13555, 1, 11],,noPlanSynthesised,,1508038
+8,,[r2, r3, r1],,[9621, 1, 103],,noPlanSynthesised,,1517161
+8,,[r2, r3, r1],,[25316, 1, 26],,noPlanSynthesised,,1525502
+8,,[r2, r3, r1],,[26487, 1, 93],,noPlanSynthesised,,1532648
+8,,[r2, r3, r1],,[29392, 1, 50],,noPlanSynthesised,,1576326
+8,,[r2, r3, r1],,[13920, 1, 71],,noPlanSynthesised,,1589884
+8,,[r2, r3, r1],,[4724, 1, 85],,noPlanSynthesised,,1613574
+8,,[r2, r3, r1],,[24986, 1, 14],,noPlanSynthesised,,1616660
+8,,[r2, r3, r1],,[25758, 1, 93],,noPlanSynthesised,,1619562
+8,,[r2, r3, r1],,[7468, 1, 47],,noPlanSynthesised,,1622294
+8,,[r2, r3, r1],,[3768, 1, 74],,noPlanSynthesised,,1623878
+8,,[r2, r3, r1],,[27213, 1, 42],,noPlanSynthesised,,1625882
+8,,[r2, r3, r1],,[2430, 1, 57],,noPlanSynthesised,,1628047
+8,,[r2, r3, r1],,[11831, 1, 26],,noPlanSynthesised,,1630648
+8,,[r2, r3, r1],,[31989, 1, 71],,noPlanSynthesised,,1631677
+8,,[r2, r3, r1],,[11609, 1, 56],,noPlanSynthesised,,1632830
+8,,[r2, r3, r1],,[11200, 1, 107],,noPlanSynthesised,,1634746
+8,,[r2, r3, r1],,[32383, 1, 9],,noPlanSynthesised,,1657762
+8,,[r2, r3, r1],,[28848, 1, 101],,noPlanSynthesised,,1666552
+8,,[r2, r3, r1],,[12084, 1, 2],,noPlanSynthesised,,1675552
+9,,[r1],,[617342669],,noPlanSynthesised,,1676210
+9,,[r1],,[597899587],,noPlanSynthesised,,1676279
+9,,[r1],,[961890220],,noPlanSynthesised,,1676345
+9,,[r1],,[739380198],,noPlanSynthesised,,1676412
+9,,[r1],,[1069523918],,noPlanSynthesised,,1676471
+9,,[r1],,[1069400370],,noPlanSynthesised,,1676849
+9,,[r1],,[1274106605],,noPlanSynthesised,,1677231
+9,,[r1],,[21508415],,noPlanSynthesised,,1677307
+9,,[r1],,[481114237],,noPlanSynthesised,,1677442
+9,,[r1],,[1173190827],,noPlanSynthesised,,1677514
+9,,[r1],,[683888786],,noPlanSynthesised,,1677578
+9,,[r1],,[525893014],,noPlanSynthesised,,1677641
+9,,[r1],,[474435406],,noPlanSynthesised,,1677695
+9,,[r1],,[1193013899],,noPlanSynthesised,,1677759
+9,,[r1],,[41491262],,noPlanSynthesised,,1677842
+9,,[r1],,[6560406],,noPlanSynthesised,,1677896
+9,,[r1],,[432493028],,noPlanSynthesised,,1677940
+9,,[r1],,[435046],,noPlanSynthesised,,1677989
+9,,[r1],,[15727573],,noPlanSynthesised,,1678034
+9,,[r1],,[1019391440],,noPlanSynthesised,,1678087
+9,,[r1],,[755996506],,noPlanSynthesised,,1678136
+9,,[r1],,[1115365280],,noPlanSynthesised,,1678191
+9,,[r1],,[889761766],,noPlanSynthesised,,1678251
+9,,[r1],,[1156453037],,noPlanSynthesised,,1678357
+9,,[r1],,[847864712],,noPlanSynthesised,,1678409
+9,,[r1],,[91923291],,noPlanSynthesised,,1678511
+9,,[r1],,[1139682196],,noPlanSynthesised,,1678612
+9,,[r1],,[829343693],,noPlanSynthesised,,1678757
+9,,[r1],,[724517109],,noPlanSynthesised,,1678835
+9,,[r1],,[186247773],,noPlanSynthesised,,1678895
+9,,[r1],,[235116209],,noPlanSynthesised,,1678966
+9,,[r1],,[377625712],,noPlanSynthesised,,1679032
+9,,[r1],,[999538674],,noPlanSynthesised,,1679209
+9,,[r1],,[1212562896],,noPlanSynthesised,,1679259
+9,,[r1],,[167706789],,noPlanSynthesised,,1679339
+9,,[r1],,[381376915],,noPlanSynthesised,,1679396
+9,,[r1],,[127591968],,noPlanSynthesised,,1679495
+9,,[r1],,[350930251],,noPlanSynthesised,,1679642
+9,,[r1],,[275746156],,noPlanSynthesised,,1679779
+9,,[r1],,[1057702127],,noPlanSynthesised,,1679920
+9,,[r1],,[176227882],,noPlanSynthesised,,1680097
+9,,[r1],,[1169821772],,noPlanSynthesised,,1680175
+9,,[r1],,[914252180],,noPlanSynthesised,,1680242
+9,,[r1],,[1146892541],,noPlanSynthesised,,1680425
+9,,[r1],,[1259111242],,noPlanSynthesised,,1680498
+9,,[r1],,[1177577321],,noPlanSynthesised,,1681883
+9,,[r1],,[310177463],,noPlanSynthesised,,1682863
+9,,[r1],,[1228841701],,noPlanSynthesised,,1683022
+9,,[r1],,[468672861],,noPlanSynthesised,,1683780
+9,,[r1],,[395860873],,noPlanSynthesised,,1684829
+10,,[r3, r1],,[1, 110406983],,noPlanSynthesised,,1690839
+10,,[r3, r1],,[1, 1190402448],,noPlanSynthesised,,1691712
+10,,[r3, r1],,[1, 278627263],,noPlanSynthesised,,1692511
+10,,[r3, r1],,[1, 1445650889],,noPlanSynthesised,,1694440
+10,,[r3, r1],,[1, 209218410],,noPlanSynthesised,,1695014
+10,,[r3, r1],,[1, 203747204],,noPlanSynthesised,,1698805
+10,,[r3, r1],,[1, 1424914923],,noPlanSynthesised,,1699554
+10,,[r3, r1],,[1, 849758084],,noPlanSynthesised,,1700357
+10,,[r3, r1],,[1, 807473975],,noPlanSynthesised,,1700565
+10,,[r3, r1],,[1, 1874736097],,noPlanSynthesised,,1701334
+10,,[r3, r1],,[1, 316946941],,noPlanSynthesised,,1701937
+10,,[r3, r1],,[1, 882664315],,noPlanSynthesised,,1702715
+10,,[r3, r1],,[1, 770293112],,noPlanSynthesised,,1702884
+10,,[r3, r1],,[1, 1519552873],,noPlanSynthesised,,1703017
+10,,[r3, r1],,[1, 890335575],,noPlanSynthesised,,1703116
+10,,[r3, r1],,[1, 180524891],,noPlanSynthesised,,1703250
+10,,[r3, r1],,[1, 770432566],,noPlanSynthesised,,1703384
+10,,[r3, r1],,[1, 1539214994],,noPlanSynthesised,,1704205
+10,,[r3, r1],,[1, 283543415],,noPlanSynthesised,,1704353
+10,,[r3, r1],,[1, 1438870104],,noPlanSynthesised,,1704463
+10,,[r3, r1],,[1, 247076351],,noPlanSynthesised,,1704565
+10,,[r3, r1],,[1, 460130511],,noPlanSynthesised,,1704730
+10,,[r3, r1],,[1, 1757936045],,noPlanSynthesised,,1704955
+10,,[r3, r1],,[1, 202086907],,noPlanSynthesised,,1705182
+10,,[r3, r1],,[1, 640428117],,noPlanSynthesised,,1705292
+10,,[r3, r1],,[1, 322749509],,noPlanSynthesised,,1705426
+10,,[r3, r1],,[1, 470801245],,noPlanSynthesised,,1705511
+10,,[r3, r1],,[1, 1770838192],,noPlanSynthesised,,1705625
+10,,[r3, r1],,[1, 1688186565],,noPlanSynthesised,,1705717
+10,,[r3, r1],,[1, 1752236741],,noPlanSynthesised,,1705833
+10,,[r3, r1],,[1, 401644429],,noPlanSynthesised,,1705909
+10,,[r3, r1],,[1, 460296564],,noPlanSynthesised,,1705976
+10,,[r3, r1],,[1, 51115353],,noPlanSynthesised,,1706066
+10,,[r3, r1],,[1, 1459477635],,noPlanSynthesised,,1706142
+10,,[r3, r1],,[1, 1590040475],,noPlanSynthesised,,1707031
+10,,[r3, r1],,[1, 743022615],,noPlanSynthesised,,1707109
+10,,[r3, r1],,[1, 484023944],,noPlanSynthesised,,1709210
+10,,[r3, r1],,[1, 1383973482],,noPlanSynthesised,,1711782
+10,,[r3, r1],,[1, 693907373],,noPlanSynthesised,,1712477
+10,,[r3, r1],,[1, 329944892],,noPlanSynthesised,,1712845
+10,,[r3, r1],,[1, 67353791],,noPlanSynthesised,,1713228
+10,,[r3, r1],,[1, 1403744504],,noPlanSynthesised,,1713536
+10,,[r3, r1],,[1, 1211950028],,noPlanSynthesised,,1713656
+10,,[r3, r1],,[1, 441811601],,noPlanSynthesised,,1714574
+10,,[r3, r1],,[1, 979296752],,noPlanSynthesised,,1714681
+10,,[r3, r1],,[1, 1340845622],,noPlanSynthesised,,1714846
+10,,[r3, r1],,[1, 1782542751],,noPlanSynthesised,,1714989
+10,,[r3, r1],,[1, 372489653],,noPlanSynthesised,,1715430
+10,,[r3, r1],,[1, 102611455],,noPlanSynthesised,,1717955
+10,,[r3, r1],,[1, 414948827],,noPlanSynthesised,,1736834
+11,,[r2, r3, r1],,[84, 1, 7777],,noPlanSynthesised,,1763564
+11,,[r2, r3, r1],,[18, 1, 9564],,noPlanSynthesised,,1765526
+11,,[r2, r3, r1],,[95, 1, 32577],,noPlanSynthesised,,1766077
+11,,[r2, r3, r1],,[84, 1, 27194],,noPlanSynthesised,,1767821
+11,,[r2, r3, r1],,[13, 1, 30625],,noPlanSynthesised,,1769665
+11,,[r2, r3, r1],,[77, 1, 6821],,noPlanSynthesised,,1771908
+11,,[r2, r3, r1],,[115, 1, 20424],,noPlanSynthesised,,1774620
+11,,[r2, r3, r1],,[57, 1, 3580],,noPlanSynthesised,,1776851
+11,,[r2, r3, r1],,[105, 1, 18589],,noPlanSynthesised,,1780807
+11,,[r2, r3, r1],,[7, 1, 10895],,noPlanSynthesised,,1786198
+11,,[r2, r3, r1],,[120, 1, 24891],,noPlanSynthesised,,1787165
+11,,[r2, r3, r1],,[11, 1, 5504],,noPlanSynthesised,,1788628
+11,,[r2, r3, r1],,[109, 1, 7153],,noPlanSynthesised,,1792736
+11,,[r2, r3, r1],,[85, 1, 35060],,noPlanSynthesised,,1793846
+11,,[r2, r3, r1],,[106, 1, 14485],,noPlanSynthesised,,1798684
+11,,[r2, r3, r1],,[102, 1, 17097],,noPlanSynthesised,,1800269
+11,,[r2, r3, r1],,[94, 1, 24310],,noPlanSynthesised,,1803190
+11,,[r2, r3, r1],,[68, 1, 26280],,noPlanSynthesised,,1804324
+11,,[r2, r3, r1],,[71, 1, 2707],,noPlanSynthesised,,1805750
+11,,[r2, r3, r1],,[68, 1, 3319],,noPlanSynthesised,,1807543
+11,,[r2, r3, r1],,[39, 1, 30003],,noPlanSynthesised,,1812663
+11,,[r2, r3, r1],,[4, 1, 37954],,noPlanSynthesised,,1815732
+11,,[r2, r3, r1],,[35, 1, 32305],,noPlanSynthesised,,1824175
+11,,[r2, r3, r1],,[10, 1, 16857],,noPlanSynthesised,,1827651
+11,,[r2, r3, r1],,[98, 1, 21482],,noPlanSynthesised,,1829612
+11,,[r2, r3, r1],,[74, 1, 30464],,noPlanSynthesised,,1832479
+11,,[r2, r3, r1],,[42, 1, 7629],,noPlanSynthesised,,1834464
+11,,[r2, r3, r1],,[14, 1, 19785],,noPlanSynthesised,,1847641
+11,,[r2, r3, r1],,[77, 1, 30928],,noPlanSynthesised,,1855700
+11,,[r2, r3, r1],,[2, 1, 13277],,noPlanSynthesised,,1862150
+11,,[r2, r3, r1],,[52, 1, 35541],,noPlanSynthesised,,1870728
+11,,[r2, r3, r1],,[101, 1, 179],,noPlanSynthesised,,1876640
+11,,[r2, r3, r1],,[111, 1, 14451],,noPlanSynthesised,,1891798
+11,,[r2, r3, r1],,[18, 1, 215],,noPlanSynthesised,,1898499
+11,,[r2, r3, r1],,[38, 1, 27659],,noPlanSynthesised,,1902786
+11,,[r2, r3, r1],,[120, 1, 22963],,noPlanSynthesised,,1904021
+11,,[r2, r3, r1],,[21, 1, 965],,noPlanSynthesised,,1914122
+11,,[r2, r3, r1],,[19, 1, 33188],,noPlanSynthesised,,1917040
+11,,[r2, r3, r1],,[11, 1, 12986],,noPlanSynthesised,,1925971
+11,,[r2, r3, r1],,[113, 1, 22149],,noPlanSynthesised,,1943061
+11,,[r2, r3, r1],,[66, 1, 31648],,noPlanSynthesised,,1944380
+11,,[r2, r3, r1],,[81, 1, 7625],,noPlanSynthesised,,1946766
+11,,[r2, r3, r1],,[103, 1, 21457],,noPlanSynthesised,,1948837
+11,,[r2, r3, r1],,[91, 1, 4681],,noPlanSynthesised,,1952989
+11,,[r2, r3, r1],,[117, 1, 31463],,noPlanSynthesised,,1956675
+11,,[r2, r3, r1],,[70, 1, 37019],,noPlanSynthesised,,1958684
+11,,[r2, r3, r1],,[17, 1, 31637],,noPlanSynthesised,,1965138
+11,,[r2, r3, r1],,[49, 1, 6733],,noPlanSynthesised,,1966902

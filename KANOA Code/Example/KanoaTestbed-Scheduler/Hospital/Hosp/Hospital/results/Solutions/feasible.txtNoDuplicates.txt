@@ -1,0 +1,2 @@
+alloc,,robots,,permut,,attr,
+15,,[r3, r4, r5, r1],,[78, 2, 2, 600],,{minIdle=11.0, maxSucc=44.377018782836444, minTravel=41.0},

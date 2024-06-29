@@ -1,0 +1,11 @@
+alloc,,robots,,permut,,attr,,time  (maxSucc value=prob. of failing times 100)
+1,,[r3, r4, r5, r1],,[1, 2, 2, 121537],,{minIdle=45.0, maxSucc=57.832158449034566, minTravel=65.0},,152747
+2,,[r3, r4, r5, r1],,[1, 1, 1, 312480],,{minIdle=37.0, maxSucc=55.4955055824069, minTravel=76.0},,305216
+2,,[r3, r4, r5, r1],,[1, 1, 1, 3599281],,{minIdle=32.0, maxSucc=49.94595502416621, minTravel=82.0},,372178
+2,,[r3, r4, r5, r1],,[1, 2, 2, 1514173],,{minIdle=43.0, maxSucc=61.66167286934099, minTravel=74.0},,391694
+2,,[r3, r4, r5, r1],,[1, 2, 2, 3190362],,{minIdle=58.0, maxSucc=61.66167286934101, minTravel=67.0},,426910
+3,,[r3, r4, r5, r1],,[24, 2, 2, 2695],,{minIdle=25.0, maxSucc=60.267196699520234, minTravel=42.0},,435187
+3,,[r3, r4, r5, r1],,[9, 1, 1, 639],,{minIdle=18.0, maxSucc=48.816429326611406, minTravel=61.0},,452444
+3,,[r3, r4, r5, r1],,[1, 2, 2, 3389],,{minIdle=52.0, maxSucc=66.96355188835582, minTravel=49.0},,480533
+3,,[r3, r4, r5, r1],,[12, 1, 1, 2947],,{minIdle=37.0, maxSucc=60.26719669952024, minTravel=48.0},,487666
+3,,[r3, r4, r5, r1],,[17, 1, 1, 1050],,{minIdle=23.0, maxSucc=54.240477029568225, minTravel=54.0},,515438

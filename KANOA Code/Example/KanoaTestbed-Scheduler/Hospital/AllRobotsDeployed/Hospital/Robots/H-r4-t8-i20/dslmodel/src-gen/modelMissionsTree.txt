@@ -1,0 +1,17 @@
+type,,id,,parent,,ordered_children,,location,,numrobots,,joint,,ordered,,consecutive,,start,,end,,instantiatedFrom,,reachableAtomicTasks,,retry
+mt,,m1,,NaN,,['at1_1'],,NaN,,NaN,,NaN,,NaN,,NaN,,NaN,,NaN,,m1,,NaN,,NaN
+at,,at1_1,,m1,,NaN,,room1,,2,,True,,NaN,,NaN,,10.0,,None,,at1,,NaN,,2
+mt,,m3,,NaN,,['ct2_1'],,NaN,,NaN,,NaN,,NaN,,NaN,,NaN,,NaN,,m3,,NaN,,NaN
+ct,,ct2_1,,m3,,['at4_2,ct1_2'],,NaN,,NaN,,NaN,,true,,false,,NaN,,NaN,,ct2,,['at4_2,at3_3,at2_4'],,NaN
+at,,at4_2,,ct2_1,,NaN,,room2,,1,,False,,NaN,,NaN,,None,,None,,at4,,NaN,,0
+ct,,ct1_2,,ct2_1,,['at3_3,at2_4'],,NaN,,NaN,,NaN,,false,,false,,NaN,,NaN,,ct1,,['at3_3,at2_4'],,NaN
+at,,at3_3,,ct1_2,,NaN,,room2,,1,,False,,NaN,,NaN,,None,,None,,at3,,NaN,,0
+at,,at2_4,,ct1_2,,NaN,,room2,,1,,False,,NaN,,NaN,,None,,None,,at2,,NaN,,0
+mt,,m4,,NaN,,['ct2_3'],,NaN,,NaN,,NaN,,NaN,,NaN,,NaN,,NaN,,m4,,NaN,,NaN
+ct,,ct2_3,,m4,,['at4_5,ct1_4'],,NaN,,NaN,,NaN,,true,,false,,NaN,,NaN,,ct2,,['at4_5,at3_6,at2_7'],,NaN
+at,,at4_5,,ct2_3,,NaN,,room3,,1,,False,,NaN,,NaN,,None,,None,,at4,,NaN,,0
+ct,,ct1_4,,ct2_3,,['at3_6,at2_7'],,NaN,,NaN,,NaN,,false,,false,,NaN,,NaN,,ct1,,['at3_6,at2_7'],,NaN
+at,,at3_6,,ct1_4,,NaN,,room3,,1,,False,,NaN,,NaN,,None,,None,,at3,,NaN,,0
+at,,at2_7,,ct1_4,,NaN,,room3,,1,,False,,NaN,,NaN,,None,,None,,at2,,NaN,,0
+mt,,me,,NaN,,['ate_8'],,NaN,,NaN,,NaN,,NaN,,NaN,,NaN,,NaN,,me,,NaN,,NaN
+at,,ate_8,,me,,NaN,,le,,4,,True,,NaN,,NaN,,None,,None,,ate,,NaN,,0

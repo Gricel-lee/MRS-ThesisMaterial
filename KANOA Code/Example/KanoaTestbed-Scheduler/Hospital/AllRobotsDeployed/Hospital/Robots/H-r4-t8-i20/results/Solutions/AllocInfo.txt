@@ -1,0 +1,2 @@
+alloc,,clusters,,tasksAlloc,,file
+1,,[[r3, r4, r5, r1]],,{r3=[ate_8], r4=[ate_8, at1_1], r5=[ate_8, at1_1], r1=[ate_8, at4_2, at4_5, at3_3, at3_6, at2_4, at2_7]},,/Users/grisv/GitHub/KanoaV3/KanoaScheduler/KanoaTestbed/Hospital/AllRobotsDeployed/Hospital/Robots/H-r4-t8-i30/results/Alloy//Allocation1.xml

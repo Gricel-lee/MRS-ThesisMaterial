@@ -1,0 +1,85 @@
+ProblemSpecification{
+	WorldModel: //km
+    l1c : ( x 10.0 y 20.0 )  l1d : ( x 10.0 y 30.0 ) l1e : ( x 10.0 y 40.0 )
+    l1f : ( x 10.0 y 50.0 )  l1g : ( x 10.0 y 60.0 ) l2a : ( x 20.0 y 0.0 )
+    l2b : ( x 20.0 y 10.0 )  l2c : ( x 20.0 y 20.0 ) l2d : ( x 20.0 y 30.0 ) 
+    l2e : ( x 20.0 y 40.0 )  l2f : ( x 20.0 y 50.0 ) l2g : ( x 20.0 y 60.0 )
+    l3a : ( x 30.0 y 0.0 )   l3b : ( x 30.0 y 10.0 ) l3c : ( x 30.0 y 20.0 )
+    l3d : ( x 30. 0 y 30.0 )  l3e : ( x 30.0 y 40.0 ) l3f : ( x 30.0 y 50.0 )
+    l3g : ( x 30.0 y 60.0 )
+    distance l1f to l1e is 10.0 has success rate: 85.0%
+	distance l1e to l1f is 10.0 has success rate: 85.0%
+	distance l3b to l3c is 10.0 has success rate: 85.0%
+	distance l3c to l3b is 10.0 has success rate: 85.0%
+	 //...
+	TasksModel:
+	 at1 : 1 robots needed at location l1c, 3 retries allowed, // water salinity
+	 at2 : 1 robot needed at location l1c,  // temperature
+	 //Reefs
+	 at1Reef : 1 robots needed at location l1c,  // water salinity
+	 at2Reef : 1 robot needed at location l1c,  // temperature
+	 //Rocky area
+	 at1Rock : 1 robots needed at location l1c, // water salinity
+	 at2Rock : 1 robot needed at location l1c,  // temperature
+	 
+	 ct1:subtasks [at1,at2],
+	 ct1Reef:subtasks [at1Reef,at2Reef],
+	 ct1Rock:subtasks [at1Rock,at2Rock] 
+	 
+	RobotsModel:
+	//small UUV   
+	r1 : at initial position l3d has velocity 1.0 with capabilities //km/min 
+	 	(at1 -required time: 15.0, success rate: 100.0%,
+	 	 at2 -required time: 11.0, success rate: 100.0%,
+	 	 at1Rock -required time: 18.0, success rate: 98.0%,
+	 	 at2Rock -required time: 17.0, success rate: 99.0%,
+	 	 at1Reef -required time: 18.0, success rate: 98.0%,
+	 	 at2Reef -required time: 17.0, success rate: 89.0%),
+	//small UUV   
+	r2 : at initial position l3d has velocity 1.0 with capabilities //km/min 
+	 	(at1 -required time: 14.0, success rate: 100.0%,
+	 	 at2 -required time: 10.0, success rate: 100.0%,
+	 	 at1Rock -required time: 16.0, success rate: 99.0%,
+	 	 at2Rock -required time: 12.0, success rate: 99.0%,
+	 	 at1Reef -required time: 16.0, success rate: 97.0%,
+	 	 at2Reef -required time: 12.0, success rate: 98.0%),
+	//bigger UUV   
+	r3 : at initial position l3d has velocity 3.0 with capabilities //km/min  		//0.5 to 0.74 km/min is the speed of submarine = 16-24 knots
+	 	(at1 -required time: 6.0, success rate: 100.0%,
+	 	 at2 -required time: 5.0, success rate: 100.0%,
+	 	 at1Rock -required time: 10.0, success rate: 100.0%,
+	 	 at2Rock -required time: 10.0, success rate: 100.0%)
+	 	 
+	Mission :
+		m1c :compound task ct1Rock at location l1c,
+		m1d :compound task ct1Reef at location l1d,
+		m1e :compound task ct1Reef at location l1e,
+		m1f :compound task ct1Reef at location l1f,
+		m1g :compound task ct1 at location l1g,
+		
+		m2a :compound task ct1Rock at location l2a,
+		m2b :compound task ct1Rock at location l2b,
+		m2c :compound task ct1Reef at location l2c,
+		m2d :compound task ct1 at location l2d,
+		m2e :compound task ct1 at location l2e,
+		m2f :compound task ct1 at location l2f,
+		m2g :compound task ct1 at location l2g,
+		
+		m3a :compound task ct1Rock at location l3a,
+		m3b :compound task ct1Reef at location l3b,
+		m3c :compound task ct1Reef at location l3c,
+		m3d :compound task ct1 at location l3d,
+		m3e :compound task ct1 at location l3e,
+		m3f :compound task ct1 at location l3f,
+		m3g :compound task ct1 at location l3g
+		
+		objectives: 
+			minimiseTravel, maximiseSuccess
+		constraints:
+			rate of success greater than 50.0,
+			robot r3 work in y greater than 50.0,		
+			limit max number of tasks per robot to 16,
+		parameters: 
+			time: 700
+}
+

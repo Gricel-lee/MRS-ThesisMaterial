@@ -1,0 +1,5 @@
+type,,id,,parent,,ordered_children,,location,,numrobots,,joint,,ordered,,consecutive,,start,,end,,instantiatedFrom,,reachableAtomicTasks,,retry
+mt,,m1c,,NaN,,['ct1Rock_1'],,NaN,,NaN,,NaN,,NaN,,NaN,,NaN,,NaN,,m1c,,NaN,,NaN
+ct,,ct1Rock_1,,m1c,,['at1Rock_1,at2Rock_2'],,NaN,,NaN,,NaN,,false,,false,,NaN,,NaN,,ct1Rock,,['at1Rock_1,at2Rock_2'],,NaN
+at,,at1Rock_1,,ct1Rock_1,,NaN,,l1c,,3,,True,,NaN,,NaN,,None,,None,,at1Rock,,NaN,,0
+at,,at2Rock_2,,ct1Rock_1,,NaN,,l1c,,3,,True,,NaN,,NaN,,None,,None,,at2Rock,,NaN,,0

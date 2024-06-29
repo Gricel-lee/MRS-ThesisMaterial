@@ -1,0 +1,34 @@
+dtmc
+
+const double p_travel_r1at1Rock_1=1.0 ;// from location: l3d (robot initial loc) to location: l1c (at1Rock_1)
+const double p_travel_r1at2Rock_2=1.0 ;// from location: l1c (at1Rock_1) to location: l1c(at2Rock_2)
+const double p_travel_r1at1Rock_3=1.0 ;// from location: l1c (at2Rock_2) to location: l2a(at1Rock_3)
+const double p_travel_r1at2Rock_4=1.0 ;// from location: l2a (at1Rock_3) to location: l2a(at2Rock_4)
+const double p_r1at1Rock_1=0.98 ;
+const double p_r1at2Rock_2=0.99 ;
+const double p_r1at1Rock_3=0.98 ;
+const double p_r1at2Rock_4=0.99 ;
+
+formula done=(r1=16);
+
+module r1
+ r1:[0..16];
+ //travel to at1Rock_1
+ [r1travel_at1Rock_1] r1=0->p_travel_r1at1Rock_1:(r1'=2) + 1-p_travel_r1at1Rock_1:(r1'=1);
+ //try at1Rock_1, no retry allowed
+ []r1=2 -> 0.98:(r1'=4) + 1-0.98:(r1'=3); //fail task at r1=3
+ //travel to at2Rock_2
+ [r1travel_at2Rock_2] r1=4->p_travel_r1at2Rock_2:(r1'=6) + 1-p_travel_r1at2Rock_2:(r1'=5);
+ //try at2Rock_2, no retry allowed
+ []r1=6 -> 0.99:(r1'=8) + 1-0.99:(r1'=7); //fail task at r1=7
+ //travel to at1Rock_3
+ [r1travel_at1Rock_3] r1=8->p_travel_r1at1Rock_3:(r1'=10) + 1-p_travel_r1at1Rock_3:(r1'=9);
+ //try at1Rock_3, no retry allowed
+ []r1=10 -> 0.98:(r1'=12) + 1-0.98:(r1'=11); //fail task at r1=11
+ //travel to at2Rock_4
+ [r1travel_at2Rock_4] r1=12->p_travel_r1at2Rock_4:(r1'=14) + 1-p_travel_r1at2Rock_4:(r1'=13);
+ //try at2Rock_4, no retry allowed
+ []r1=14 -> 0.99:(r1'=16) + 1-0.99:(r1'=15); //fail task at r1=15
+endmodule
+
+

@@ -1,0 +1,2 @@
+alloc,,clusters,,tasksAlloc,,file
+1,,[[r2, r3, r4, r5, r1]],,{r2=[at2Rock_2, at1Rock_1], r3=[at2Rock_2, at1Rock_1], r4=[at2Rock_2, at1Rock_1], r5=[at2Rock_2, at1Rock_1], r1=[at2Rock_2, at1Rock_1]},,/Users/grisv/GitHub/KanoaV3/KanoaScheduler/KanoaTestbed/Hospital/anwer-RQ2-varyRobotsTasks/BoAlpha/B-r5t2-j2c0o0/results/Alloy//Allocation1.xml

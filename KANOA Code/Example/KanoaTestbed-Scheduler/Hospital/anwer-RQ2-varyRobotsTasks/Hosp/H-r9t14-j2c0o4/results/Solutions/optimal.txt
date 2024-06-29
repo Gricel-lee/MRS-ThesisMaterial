@@ -1,0 +1,1 @@
+alloc,,robots,,permut,,attr,,time   (maxSucc value=prob. of failing times 100)

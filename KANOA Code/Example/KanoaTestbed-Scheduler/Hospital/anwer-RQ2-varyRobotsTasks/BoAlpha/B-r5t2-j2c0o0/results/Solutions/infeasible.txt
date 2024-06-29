@@ -1,0 +1,18 @@
+alloc,,robots,,perm,,reason,,time
+1,,[r2, r3, r4, r5, r1],,[1, 1, 1, 2, 2],,noPlanSynthesised,,16884
+1,,[r2, r3, r4, r5, r1],,[2, 1, 2, 2, 1],,noPlanSynthesised,,37897
+1,,[r2, r3, r4, r5, r1],,[2, 2, 2, 2, 1],,noPlanSynthesised,,60041
+1,,[r2, r3, r4, r5, r1],,[2, 1, 2, 2, 2],,noPlanSynthesised,,81457
+1,,[r2, r3, r4, r5, r1],,[1, 2, 1, 1, 2],,noPlanSynthesised,,104523
+1,,[r2, r3, r4, r5, r1],,[1, 1, 1, 1, 1],,noPlanSynthesised,,125785
+1,,[r2, r3, r4, r5, r1],,[2, 1, 1, 2, 1],,noPlanSynthesised,,148611
+1,,[r2, r3, r4, r5, r1],,[1, 1, 2, 2, 2],,noPlanSynthesised,,169754
+1,,[r2, r3, r4, r5, r1],,[1, 2, 2, 2, 1],,noPlanSynthesised,,191976
+1,,[r2, r3, r4, r5, r1],,[2, 1, 1, 1, 1],,noPlanSynthesised,,216055
+1,,[r2, r3, r4, r5, r1],,[1, 1, 1, 1, 1],,noPlanSynthesised,,239951
+1,,[r2, r3, r4, r5, r1],,[2, 2, 2, 1, 1],,noPlanSynthesised,,263331
+1,,[r2, r3, r4, r5, r1],,[2, 2, 1, 2, 2],,noPlanSynthesised,,286290
+1,,[r2, r3, r4, r5, r1],,[2, 1, 2, 1, 1],,noPlanSynthesised,,311242
+1,,[r2, r3, r4, r5, r1],,[2, 1, 1, 1, 1],,noPlanSynthesised,,337288
+1,,[r2, r3, r4, r5, r1],,[1, 2, 1, 2, 2],,noPlanSynthesised,,359119
+1,,[r2, r3, r4, r5, r1],,[1, 2, 2, 1, 2],,noPlanSynthesised,,381250

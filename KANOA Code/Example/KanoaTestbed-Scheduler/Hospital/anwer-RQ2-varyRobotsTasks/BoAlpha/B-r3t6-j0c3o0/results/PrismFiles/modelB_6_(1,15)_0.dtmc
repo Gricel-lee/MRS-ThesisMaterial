@@ -1,0 +1,22 @@
+dtmc
+
+const double p_travel_r2at1Rock_5=1.0 ;// from location: l3d (robot initial loc) to location: l2b (at1Rock_5)
+const double p_travel_r2at2Rock_6=1.0 ;// from location: l2b (at1Rock_5) to location: l2b(at2Rock_6)
+const double p_r2at1Rock_5=0.99 ;
+const double p_r2at2Rock_6=0.99 ;
+
+formula done=(r2=8);
+
+module r2
+ r2:[0..8];
+ //travel to at1Rock_5
+ [r2travel_at1Rock_5] r2=0->p_travel_r2at1Rock_5:(r2'=2) + 1-p_travel_r2at1Rock_5:(r2'=1);
+ //try at1Rock_5, no retry allowed
+ []r2=2 -> 0.99:(r2'=4) + 1-0.99:(r2'=3); //fail task at r2=3
+ //travel to at2Rock_6
+ [r2travel_at2Rock_6] r2=4->p_travel_r2at2Rock_6:(r2'=6) + 1-p_travel_r2at2Rock_6:(r2'=5);
+ //try at2Rock_6, no retry allowed
+ []r2=6 -> 0.99:(r2'=8) + 1-0.99:(r2'=7); //fail task at r2=7
+endmodule
+
+

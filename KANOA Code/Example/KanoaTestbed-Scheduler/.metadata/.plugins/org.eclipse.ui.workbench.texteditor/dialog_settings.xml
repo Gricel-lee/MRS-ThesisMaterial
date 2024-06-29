@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=":compound task ct1 at location"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value=":compound task at location"/>
+			<item value="0."/>
+			<item value="20"/>
+			<item value="l2"/>
+			<item value="l1"/>
+			<item value="l11"/>
+			<item value="l10"/>
+			<item value="l9"/>
+			<item value="l8"/>
+			<item value="l7"/>
+		</list>
+		<list key="replacehistory">
+			<item value=":compound task ct1 at location"/>
+			<item value="0000."/>
+			<item value="30"/>
+			<item value="l3"/>
+			<item value="l2"/>
+			<item value="l5"/>
+			<item value="l4"/>
+			<item value="l1"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="877"/>
+		<item key="DIALOG_Y_ORIGIN" value="189"/>
+		<item key="DIALOG_WIDTH" value="386"/>
+		<item key="DIALOG_HEIGHT" value="435"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+</section>

@@ -1,0 +1,4 @@
+l1f,l1e,10.0l1e,l1f,10.0l3b,l3c,10.0l3c,l3b,10.0r1,l3d
+r2,l3d
+r3,l3d
+r4,l3d

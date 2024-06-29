@@ -1,0 +1,6 @@
+alloc,,robots,,permut,,attr,,time   (maxSucc value=prob. of failing times 100)
+1,,[r3, r4, r5, r1],,(1,2,2,121537),,{minIdle=45.0, maxSucc=42.167841550965434, minTravel=65.0},,152750
+2,,[r3, r4, r5, r1],,(1,1,1,312480),,{minIdle=37.0, maxSucc=44.5044944175931, minTravel=76.0},,305217
+2,,[r3, r4, r5, r1],,(1,1,1,3599281),,{minIdle=32.0, maxSucc=50.05404497583379, minTravel=82.0},,372179
+2,,[r3, r4, r5, r1],,(1,2,2,1514173),,{minIdle=43.0, maxSucc=38.33832713065901, minTravel=74.0},,391695
+2,,[r3, r4, r5, r1],,(1,2,2,3190362),,{minIdle=58.0, maxSucc=38.33832713065899, minTravel=67.0},,426910

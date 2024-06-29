@@ -1,0 +1,80 @@
+mdp
+
+const int TT=700;//total time available 
+
+//r1 velocity:1.0
+const int travelr1at2Rock_6=22 ;// from location: l3d (robot initial loc) to location: l2b (at2Rock_6)    distance:22
+const int travelr1at2_14=51 ;// from location: l2b (at2Rock_6) to location: l3g(at2_14)    distance:51
+const int travelr1at2_8=30 ;// from location: l3g (at2_14) to location: l3d(at2_8)    distance:30
+const int travelr1at1_11=20 ;// from location: l3d (at2_8) to location: l3f(at1_11)    distance:20
+const int travelr1at1Rock_5=41 ;// from location: l3f (at1_11) to location: l2b(at1Rock_5)    distance:41
+const int travelr1at2_12=41 ;// from location: l2b (at1Rock_5) to location: l3f(at2_12)    distance:41
+const int travelr1at1_7=20 ;// from location: l3f (at2_12) to location: l3d(at1_7)    distance:20
+const int travelr1at2Rock_2=22 ;// from location: l3d (at1_7) to location: l1c(at2Rock_2)    distance:22
+const int travelr1at2Rock_4=22 ;// from location: l1c (at2Rock_2) to location: l2a(at2Rock_4)    distance:22
+const int travelr1at2_10=41 ;// from location: l2a (at2Rock_4) to location: l3e(at2_10)    distance:41
+const int travelr1at1Rock_3=41 ;// from location: l3e (at2_10) to location: l2a(at1Rock_3)    distance:41
+const int travelr1at1Rock_1=22 ;// from location: l2a (at1Rock_3) to location: l1c(at1Rock_1)    distance:22
+const int travelr1at1_13=45 ;// from location: l1c (at1Rock_1) to location: l3g(at1_13)    distance:45
+const int travelr1at1_9=20 ;// from location: l3g (at1_13) to location: l3e(at1_9)    distance:20
+const int r1at2Rock_6Time=17;
+const int r1at2_14Time=11;
+const int r1at2_8Time=11;
+const int r1at1_11Time=15;
+const int r1at1Rock_5Time=18;
+const int r1at2_12Time=11;
+const int r1at1_7Time=15;
+const int r1at2Rock_2Time=17;
+const int r1at2Rock_4Time=17;
+const int r1at2_10Time=11;
+const int r1at1Rock_3Time=18;
+const int r1at1Rock_1Time=18;
+const int r1at1_13Time=15;
+const int r1at1_9Time=15;
+const int maxIdler1=20;
+
+formula done=(r1order=14);
+
+//formulae for ordered tasks
+formula r1at1_11Done = r1order>=4 ;
+formula r1at1_13Done = r1order>=13 ;
+formula r1at1_9Done = r1order>=14 ;
+formula r1at1Rock_5Done = r1order>=5 ;
+formula r1at1Rock_3Done = r1order>=11 ;
+formula r1at1Rock_1Done = r1order>=12 ;
+formula r1at1_7Done = r1order>=7 ;
+
+
+//formulae for consecutive tasks
+
+
+
+
+module r1
+ r1order:[0..14];
+ r1time:[0..700];
+ r1idleTime:[0..maxIdler1];
+ [r1at2Rock_6] r1order=0 & (r1time+r1at2Rock_6Time+travelr1at2Rock_6<=TT) & (r1time+travelr1at2Rock_6 >= r1time) & (r1at1Rock_5Done) -> (r1order'=1) & (r1time'=r1time+r1at2Rock_6Time+travelr1at2Rock_6);
+ [r1at2_14] r1order=1 & (r1time+r1at2_14Time+travelr1at2_14<=TT) & (r1time+travelr1at2_14 >= r1time) & (r1at1_13Done) -> (r1order'=2) & (r1time'=r1time+r1at2_14Time+travelr1at2_14);
+ [r1at2_8] r1order=2 & (r1time+r1at2_8Time+travelr1at2_8<=TT) & (r1time+travelr1at2_8 >= r1time) & (r1at1_7Done) -> (r1order'=3) & (r1time'=r1time+r1at2_8Time+travelr1at2_8);
+ [r1at1_11] r1order=3 & (r1time+r1at1_11Time+travelr1at1_11<=TT) -> (r1order'=4) & (r1time'=r1time+r1at1_11Time+travelr1at1_11);
+ [r1at1Rock_5] r1order=4 & (r1time+r1at1Rock_5Time+travelr1at1Rock_5<=TT) -> (r1order'=5) & (r1time'=r1time+r1at1Rock_5Time+travelr1at1Rock_5);
+ [r1at2_12] r1order=5 & (r1time+r1at2_12Time+travelr1at2_12<=TT) & (r1time+travelr1at2_12 >= r1time) & (r1at1_11Done) -> (r1order'=6) & (r1time'=r1time+r1at2_12Time+travelr1at2_12);
+ [r1at1_7] r1order=6 & (r1time+r1at1_7Time+travelr1at1_7<=TT) -> (r1order'=7) & (r1time'=r1time+r1at1_7Time+travelr1at1_7);
+ [r1at2Rock_2] r1order=7 & (r1time+r1at2Rock_2Time+travelr1at2Rock_2<=TT) & (r1time+travelr1at2Rock_2 >= r1time) & (r1at1Rock_1Done) -> (r1order'=8) & (r1time'=r1time+r1at2Rock_2Time+travelr1at2Rock_2);
+ [r1at2Rock_4] r1order=8 & (r1time+r1at2Rock_4Time+travelr1at2Rock_4<=TT) & (r1time+travelr1at2Rock_4 >= r1time) & (r1at1Rock_3Done) -> (r1order'=9) & (r1time'=r1time+r1at2Rock_4Time+travelr1at2Rock_4);
+ [r1at2_10] r1order=9 & (r1time+r1at2_10Time+travelr1at2_10<=TT) & (r1time+travelr1at2_10 >= r1time) & (r1at1_9Done) -> (r1order'=10) & (r1time'=r1time+r1at2_10Time+travelr1at2_10);
+ [r1at1Rock_3] r1order=10 & (r1time+r1at1Rock_3Time+travelr1at1Rock_3<=TT) -> (r1order'=11) & (r1time'=r1time+r1at1Rock_3Time+travelr1at1Rock_3);
+ [r1at1Rock_1] r1order=11 & (r1time+r1at1Rock_1Time+travelr1at1Rock_1<=TT) -> (r1order'=12) & (r1time'=r1time+r1at1Rock_1Time+travelr1at1Rock_1);
+ [r1at1_13] r1order=12 & (r1time+r1at1_13Time+travelr1at1_13<=TT) -> (r1order'=13) & (r1time'=r1time+r1at1_13Time+travelr1at1_13);
+ [r1at1_9] r1order=13 & (r1time+r1at1_9Time+travelr1at1_9<=TT) -> (r1order'=14) & (r1time'=r1time+r1at1_9Time+travelr1at1_9);
+ [r1idle] r1order!=14 & (r1time+1<=TT) & (r1idleTime+1<=maxIdler1) -> (r1time'=r1time+1) & (r1idleTime'=r1idleTime+1);
+endmodule
+
+rewards "idle"
+ //Note- there is no idle option for robot ri if maxIdleri==0 (computed beforehand)
+ [r1idle] true: 1;
+endrewards
+
+
+

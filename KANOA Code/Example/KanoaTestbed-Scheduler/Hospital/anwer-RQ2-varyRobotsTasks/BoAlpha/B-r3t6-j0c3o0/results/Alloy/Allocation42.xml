@@ -1,0 +1,127 @@
+<alloy builddate="2012-09-25 15:54 EDT">
+
+<instance bitwidth="7" maxseq="4" command="Run TaskAllocation for 7 int, 6 Capability, exactly 6 AtomicTask, 3 Robot" filename="">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/r1" ID="4" parentID="5" lone="yes">
+   <atom label="r1$0"/>
+</sig>
+
+<sig label="this/r2" ID="6" parentID="5" lone="yes">
+   <atom label="r2$0"/>
+</sig>
+
+<sig label="this/r3" ID="7" parentID="5" lone="yes">
+</sig>
+
+<sig label="this/Robot" ID="5" parentID="2" abstract="yes">
+</sig>
+
+<field label="capability" ID="8" parentID="5">
+   <tuple> <atom label="r2$0"/> <atom label="r2at2Rock$0"/> </tuple>
+   <tuple> <atom label="r2$0"/> <atom label="r2at1Rock$0"/> </tuple>
+   <tuple> <atom label="r1$0"/> <atom label="r1at2Rock$0"/> </tuple>
+   <types> <type ID="5"/> <type ID="9"/> </types>
+</field>
+
+<sig label="this/r1at1Rock" ID="10" parentID="9" lone="yes">
+</sig>
+
+<sig label="this/r1at2Rock" ID="11" parentID="9" lone="yes">
+   <atom label="r1at2Rock$0"/>
+</sig>
+
+<sig label="this/r2at1Rock" ID="12" parentID="9" lone="yes">
+   <atom label="r2at1Rock$0"/>
+</sig>
+
+<sig label="this/r2at2Rock" ID="13" parentID="9" lone="yes">
+   <atom label="r2at2Rock$0"/>
+</sig>
+
+<sig label="this/r3at1Rock" ID="14" parentID="9" lone="yes">
+</sig>
+
+<sig label="this/r3at2Rock" ID="15" parentID="9" lone="yes">
+</sig>
+
+<sig label="this/Capability" ID="9" parentID="2" abstract="yes">
+</sig>
+
+<field label="do" ID="16" parentID="9">
+   <tuple> <atom label="r2at2Rock$0"/> <atom label="at2Rock_2$0"/> </tuple>
+   <tuple> <atom label="r2at2Rock$0"/> <atom label="at2Rock_6$0"/> </tuple>
+   <tuple> <atom label="r2at1Rock$0"/> <atom label="at1Rock_5$0"/> </tuple>
+   <tuple> <atom label="r2at1Rock$0"/> <atom label="at1Rock_3$0"/> </tuple>
+   <tuple> <atom label="r2at1Rock$0"/> <atom label="at1Rock_1$0"/> </tuple>
+   <tuple> <atom label="r1at2Rock$0"/> <atom label="at2Rock_4$0"/> </tuple>
+   <types> <type ID="9"/> <type ID="17"/> </types>
+</field>
+
+<sig label="this/at2Rock_2" ID="18" parentID="19" one="yes">
+   <atom label="at2Rock_2$0"/>
+</sig>
+
+<sig label="this/at2Rock_6" ID="20" parentID="19" one="yes">
+   <atom label="at2Rock_6$0"/>
+</sig>
+
+<sig label="this/at2Rock_4" ID="21" parentID="19" one="yes">
+   <atom label="at2Rock_4$0"/>
+</sig>
+
+<sig label="this/at2Rock" ID="19" parentID="17" abstract="yes">
+</sig>
+
+<sig label="this/at1Rock_5" ID="22" parentID="23" one="yes">
+   <atom label="at1Rock_5$0"/>
+</sig>
+
+<sig label="this/at1Rock_3" ID="24" parentID="23" one="yes">
+   <atom label="at1Rock_3$0"/>
+</sig>
+
+<sig label="this/at1Rock_1" ID="25" parentID="23" one="yes">
+   <atom label="at1Rock_1$0"/>
+</sig>
+
+<sig label="this/at1Rock" ID="23" parentID="17" abstract="yes">
+</sig>
+
+<sig label="this/AtomicTask" ID="17" parentID="2" abstract="yes">
+</sig>
+
+<field label="x" ID="26" parentID="17">
+   <tuple> <atom label="at2Rock_2$0"/> <atom label="10"/> </tuple>
+   <tuple> <atom label="at2Rock_6$0"/> <atom label="20"/> </tuple>
+   <tuple> <atom label="at2Rock_4$0"/> <atom label="20"/> </tuple>
+   <tuple> <atom label="at1Rock_5$0"/> <atom label="20"/> </tuple>
+   <tuple> <atom label="at1Rock_3$0"/> <atom label="20"/> </tuple>
+   <tuple> <atom label="at1Rock_1$0"/> <atom label="10"/> </tuple>
+   <types> <type ID="17"/> <type ID="1"/> </types>
+</field>
+
+<field label="y" ID="27" parentID="17">
+   <tuple> <atom label="at2Rock_2$0"/> <atom label="20"/> </tuple>
+   <tuple> <atom label="at2Rock_6$0"/> <atom label="10"/> </tuple>
+   <tuple> <atom label="at2Rock_4$0"/> <atom label="0"/> </tuple>
+   <tuple> <atom label="at1Rock_5$0"/> <atom label="10"/> </tuple>
+   <tuple> <atom label="at1Rock_3$0"/> <atom label="0"/> </tuple>
+   <tuple> <atom label="at1Rock_1$0"/> <atom label="20"/> </tuple>
+   <types> <type ID="17"/> <type ID="1"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+</instance>
+
+</alloy>

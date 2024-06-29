@@ -1,0 +1,155 @@
+mdp
+
+const int TT=120;//total time available 
+
+//r4 velocity:2.0
+const int travelr4at11_2=1 ;// from location: l4 (robot initial loc) to location: room6 (at11_2)    distance:2
+//r5 velocity:2.0
+const int travelr5at11_2=1 ;// from location: l5 (robot initial loc) to location: room6 (at11_2)    distance:1
+//r6 velocity:2.0
+const int travelr6at11_2=1 ;// from location: l5 (robot initial loc) to location: room6 (at11_2)    distance:1
+//r7 velocity:2.0
+const int travelr7at11_2=1 ;// from location: l5 (robot initial loc) to location: room6 (at11_2)    distance:1
+//r8 velocity:2.0
+const int travelr8at11_2=1 ;// from location: l5 (robot initial loc) to location: room6 (at11_2)    distance:1
+//r9 velocity:2.0
+const int travelr9at11_2=1 ;// from location: l5 (robot initial loc) to location: room6 (at11_2)    distance:1
+const int travelr9at1_1=4 ;// from location: room6 (at11_2) to location: room1(at1_1)    distance:8
+//r10 velocity:2.0
+const int travelr10at11_2=1 ;// from location: l5 (robot initial loc) to location: room6 (at11_2)    distance:1
+//r12 velocity:2.0
+const int travelr12at11_2=1 ;// from location: l5 (robot initial loc) to location: room6 (at11_2)    distance:1
+//r11 velocity:2.0
+const int travelr11at11_2=1 ;// from location: l5 (robot initial loc) to location: room6 (at11_2)    distance:1
+//r13 velocity:2.0
+const int travelr13at11_2=1 ;// from location: l5 (robot initial loc) to location: room6 (at11_2)    distance:1
+const int r4at11_2Time=4;
+const int r5at11_2Time=4;
+const int r6at11_2Time=4;
+const int r7at11_2Time=4;
+const int r8at11_2Time=4;
+const int r9at11_2Time=4;
+const int r9at1_1Time=4;
+const int r10at11_2Time=4;
+const int r12at11_2Time=4;
+const int r11at11_2Time=4;
+const int r13at11_2Time=4;
+const int maxIdler4=20;
+const int maxIdler5=20;
+const int maxIdler6=20;
+const int maxIdler7=20;
+const int maxIdler8=20;
+const int maxIdler9=20;
+const int maxIdler10=20;
+const int maxIdler12=20;
+const int maxIdler11=20;
+const int maxIdler13=20;
+
+formula done=(r4order=1&r5order=1&r6order=1&r7order=1&r8order=1&r9order=2&r10order=1&r12order=1&r11order=1&r13order=1);
+
+//formulae for ordered tasks
+
+
+//formulae for consecutive tasks
+
+
+
+
+module r4
+ r4order:[0..1];
+ r4time:[0..120];
+ r4idleTime:[0..maxIdler4];
+ [at11_2] r4order=0 & (r4time+r4at11_2Time+travelr4at11_2<=TT) & (r4time+travelr4at11_2 = r5time+travelr5at11_2) & (r4time+travelr4at11_2 = r6time+travelr6at11_2) & (r4time+travelr4at11_2 = r7time+travelr7at11_2) & (r4time+travelr4at11_2 = r8time+travelr8at11_2) & (r4time+travelr4at11_2 = r9time+travelr9at11_2) & (r4time+travelr4at11_2 = r10time+travelr10at11_2) & (r4time+travelr4at11_2 = r12time+travelr12at11_2) & (r4time+travelr4at11_2 = r11time+travelr11at11_2) & (r4time+travelr4at11_2 = r13time+travelr13at11_2) -> (r4order'=1) & (r4time'=r4time+r4at11_2Time+travelr4at11_2);
+ [r4idle] r4order!=1 & (r4time+1<=TT) & (r4idleTime+1<=maxIdler4) -> (r4time'=r4time+1) & (r4idleTime'=r4idleTime+1);
+endmodule
+
+module r5
+ r5order:[0..1];
+ r5time:[0..120];
+ r5idleTime:[0..maxIdler5];
+ [at11_2] r5order=0 & (r5time+r5at11_2Time+travelr5at11_2<=TT) & (r5time+travelr5at11_2 = r4time+travelr4at11_2) & (r5time+travelr5at11_2 = r6time+travelr6at11_2) & (r5time+travelr5at11_2 = r7time+travelr7at11_2) & (r5time+travelr5at11_2 = r8time+travelr8at11_2) & (r5time+travelr5at11_2 = r9time+travelr9at11_2) & (r5time+travelr5at11_2 = r10time+travelr10at11_2) & (r5time+travelr5at11_2 = r12time+travelr12at11_2) & (r5time+travelr5at11_2 = r11time+travelr11at11_2) & (r5time+travelr5at11_2 = r13time+travelr13at11_2) -> (r5order'=1) & (r5time'=r5time+r5at11_2Time+travelr5at11_2);
+ [r5idle] r5order!=1 & (r5time+1<=TT) & (r5idleTime+1<=maxIdler5) -> (r5time'=r5time+1) & (r5idleTime'=r5idleTime+1);
+endmodule
+
+module r6
+ r6order:[0..1];
+ r6time:[0..120];
+ r6idleTime:[0..maxIdler6];
+ [at11_2] r6order=0 & (r6time+r6at11_2Time+travelr6at11_2<=TT) & (r6time+travelr6at11_2 = r4time+travelr4at11_2) & (r6time+travelr6at11_2 = r5time+travelr5at11_2) & (r6time+travelr6at11_2 = r7time+travelr7at11_2) & (r6time+travelr6at11_2 = r8time+travelr8at11_2) & (r6time+travelr6at11_2 = r9time+travelr9at11_2) & (r6time+travelr6at11_2 = r10time+travelr10at11_2) & (r6time+travelr6at11_2 = r12time+travelr12at11_2) & (r6time+travelr6at11_2 = r11time+travelr11at11_2) & (r6time+travelr6at11_2 = r13time+travelr13at11_2) -> (r6order'=1) & (r6time'=r6time+r6at11_2Time+travelr6at11_2);
+ [r6idle] r6order!=1 & (r6time+1<=TT) & (r6idleTime+1<=maxIdler6) -> (r6time'=r6time+1) & (r6idleTime'=r6idleTime+1);
+endmodule
+
+module r7
+ r7order:[0..1];
+ r7time:[0..120];
+ r7idleTime:[0..maxIdler7];
+ [at11_2] r7order=0 & (r7time+r7at11_2Time+travelr7at11_2<=TT) & (r7time+travelr7at11_2 = r4time+travelr4at11_2) & (r7time+travelr7at11_2 = r5time+travelr5at11_2) & (r7time+travelr7at11_2 = r6time+travelr6at11_2) & (r7time+travelr7at11_2 = r8time+travelr8at11_2) & (r7time+travelr7at11_2 = r9time+travelr9at11_2) & (r7time+travelr7at11_2 = r10time+travelr10at11_2) & (r7time+travelr7at11_2 = r12time+travelr12at11_2) & (r7time+travelr7at11_2 = r11time+travelr11at11_2) & (r7time+travelr7at11_2 = r13time+travelr13at11_2) -> (r7order'=1) & (r7time'=r7time+r7at11_2Time+travelr7at11_2);
+ [r7idle] r7order!=1 & (r7time+1<=TT) & (r7idleTime+1<=maxIdler7) -> (r7time'=r7time+1) & (r7idleTime'=r7idleTime+1);
+endmodule
+
+module r8
+ r8order:[0..1];
+ r8time:[0..120];
+ r8idleTime:[0..maxIdler8];
+ [at11_2] r8order=0 & (r8time+r8at11_2Time+travelr8at11_2<=TT) & (r8time+travelr8at11_2 = r4time+travelr4at11_2) & (r8time+travelr8at11_2 = r5time+travelr5at11_2) & (r8time+travelr8at11_2 = r6time+travelr6at11_2) & (r8time+travelr8at11_2 = r7time+travelr7at11_2) & (r8time+travelr8at11_2 = r9time+travelr9at11_2) & (r8time+travelr8at11_2 = r10time+travelr10at11_2) & (r8time+travelr8at11_2 = r12time+travelr12at11_2) & (r8time+travelr8at11_2 = r11time+travelr11at11_2) & (r8time+travelr8at11_2 = r13time+travelr13at11_2) -> (r8order'=1) & (r8time'=r8time+r8at11_2Time+travelr8at11_2);
+ [r8idle] r8order!=1 & (r8time+1<=TT) & (r8idleTime+1<=maxIdler8) -> (r8time'=r8time+1) & (r8idleTime'=r8idleTime+1);
+endmodule
+
+module r9
+ r9order:[0..2];
+ r9time:[0..120];
+ r9idleTime:[0..maxIdler9];
+ [at11_2] r9order=0 & (r9time+r9at11_2Time+travelr9at11_2<=TT) & (r9time+travelr9at11_2 = r4time+travelr4at11_2) & (r9time+travelr9at11_2 = r5time+travelr5at11_2) & (r9time+travelr9at11_2 = r6time+travelr6at11_2) & (r9time+travelr9at11_2 = r7time+travelr7at11_2) & (r9time+travelr9at11_2 = r8time+travelr8at11_2) & (r9time+travelr9at11_2 = r10time+travelr10at11_2) & (r9time+travelr9at11_2 = r12time+travelr12at11_2) & (r9time+travelr9at11_2 = r11time+travelr11at11_2) & (r9time+travelr9at11_2 = r13time+travelr13at11_2) -> (r9order'=1) & (r9time'=r9time+r9at11_2Time+travelr9at11_2);
+ [r9at1_1] r9order=1 & (r9time+r9at1_1Time+travelr9at1_1<=TT)& (r9time+travelr9at1_1 >= 10) -> (r9order'=2) & (r9time'=r9time+r9at1_1Time+travelr9at1_1);
+ [r9idle] r9order!=2 & (r9time+1<=TT) & (r9idleTime+1<=maxIdler9) -> (r9time'=r9time+1) & (r9idleTime'=r9idleTime+1);
+endmodule
+
+module r10
+ r10order:[0..1];
+ r10time:[0..120];
+ r10idleTime:[0..maxIdler10];
+ [at11_2] r10order=0 & (r10time+r10at11_2Time+travelr10at11_2<=TT) & (r10time+travelr10at11_2 = r4time+travelr4at11_2) & (r10time+travelr10at11_2 = r5time+travelr5at11_2) & (r10time+travelr10at11_2 = r6time+travelr6at11_2) & (r10time+travelr10at11_2 = r7time+travelr7at11_2) & (r10time+travelr10at11_2 = r8time+travelr8at11_2) & (r10time+travelr10at11_2 = r9time+travelr9at11_2) & (r10time+travelr10at11_2 = r12time+travelr12at11_2) & (r10time+travelr10at11_2 = r11time+travelr11at11_2) & (r10time+travelr10at11_2 = r13time+travelr13at11_2) -> (r10order'=1) & (r10time'=r10time+r10at11_2Time+travelr10at11_2);
+ [r10idle] r10order!=1 & (r10time+1<=TT) & (r10idleTime+1<=maxIdler10) -> (r10time'=r10time+1) & (r10idleTime'=r10idleTime+1);
+endmodule
+
+module r12
+ r12order:[0..1];
+ r12time:[0..120];
+ r12idleTime:[0..maxIdler12];
+ [at11_2] r12order=0 & (r12time+r12at11_2Time+travelr12at11_2<=TT) & (r12time+travelr12at11_2 = r4time+travelr4at11_2) & (r12time+travelr12at11_2 = r5time+travelr5at11_2) & (r12time+travelr12at11_2 = r6time+travelr6at11_2) & (r12time+travelr12at11_2 = r7time+travelr7at11_2) & (r12time+travelr12at11_2 = r8time+travelr8at11_2) & (r12time+travelr12at11_2 = r9time+travelr9at11_2) & (r12time+travelr12at11_2 = r10time+travelr10at11_2) & (r12time+travelr12at11_2 = r11time+travelr11at11_2) & (r12time+travelr12at11_2 = r13time+travelr13at11_2) -> (r12order'=1) & (r12time'=r12time+r12at11_2Time+travelr12at11_2);
+ [r12idle] r12order!=1 & (r12time+1<=TT) & (r12idleTime+1<=maxIdler12) -> (r12time'=r12time+1) & (r12idleTime'=r12idleTime+1);
+endmodule
+
+module r11
+ r11order:[0..1];
+ r11time:[0..120];
+ r11idleTime:[0..maxIdler11];
+ [at11_2] r11order=0 & (r11time+r11at11_2Time+travelr11at11_2<=TT) & (r11time+travelr11at11_2 = r4time+travelr4at11_2) & (r11time+travelr11at11_2 = r5time+travelr5at11_2) & (r11time+travelr11at11_2 = r6time+travelr6at11_2) & (r11time+travelr11at11_2 = r7time+travelr7at11_2) & (r11time+travelr11at11_2 = r8time+travelr8at11_2) & (r11time+travelr11at11_2 = r9time+travelr9at11_2) & (r11time+travelr11at11_2 = r10time+travelr10at11_2) & (r11time+travelr11at11_2 = r12time+travelr12at11_2) & (r11time+travelr11at11_2 = r13time+travelr13at11_2) -> (r11order'=1) & (r11time'=r11time+r11at11_2Time+travelr11at11_2);
+ [r11idle] r11order!=1 & (r11time+1<=TT) & (r11idleTime+1<=maxIdler11) -> (r11time'=r11time+1) & (r11idleTime'=r11idleTime+1);
+endmodule
+
+module r13
+ r13order:[0..1];
+ r13time:[0..120];
+ r13idleTime:[0..maxIdler13];
+ [at11_2] r13order=0 & (r13time+r13at11_2Time+travelr13at11_2<=TT) & (r13time+travelr13at11_2 = r4time+travelr4at11_2) & (r13time+travelr13at11_2 = r5time+travelr5at11_2) & (r13time+travelr13at11_2 = r6time+travelr6at11_2) & (r13time+travelr13at11_2 = r7time+travelr7at11_2) & (r13time+travelr13at11_2 = r8time+travelr8at11_2) & (r13time+travelr13at11_2 = r9time+travelr9at11_2) & (r13time+travelr13at11_2 = r10time+travelr10at11_2) & (r13time+travelr13at11_2 = r12time+travelr12at11_2) & (r13time+travelr13at11_2 = r11time+travelr11at11_2) -> (r13order'=1) & (r13time'=r13time+r13at11_2Time+travelr13at11_2);
+ [r13idle] r13order!=1 & (r13time+1<=TT) & (r13idleTime+1<=maxIdler13) -> (r13time'=r13time+1) & (r13idleTime'=r13idleTime+1);
+endmodule
+
+rewards "idle"
+ //Note- there is no idle option for robot ri if maxIdleri==0 (computed beforehand)
+ [r4idle] true: 1;
+ [r5idle] true: 1;
+ [r6idle] true: 1;
+ [r7idle] true: 1;
+ [r8idle] true: 1;
+ [r9idle] true: 1;
+ [r10idle] true: 1;
+ [r12idle] true: 1;
+ [r11idle] true: 1;
+ [r13idle] true: 1;
+endrewards
+
+
+
+ //at1_1 start time: 10.0
